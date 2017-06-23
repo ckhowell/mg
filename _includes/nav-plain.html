@@ -1,0 +1,128 @@
+<nav class="transition--fade">
+
+
+		<div class="nav-bar" data-fixed-at="200">
+				<div class="nav-module logo-module left">
+						<a href="{{site.baseurl}}/">
+								<img class="logo logo-dark" alt="logo" src="{{site.baseurl}}/img/logo-dark.png" />
+								<img class="logo logo-light" alt="logo" src="{{site.baseurl}}/img/logo-light.png" />
+						</a>
+				</div>
+				<div class="nav-module menu-module left">
+						<ul class="menu">
+								<li>
+										<a href="#">
+												Products
+										</a>
+										<ul>
+												<li class="dropdown">
+														<a href="{{site.baseurl}}/products/showerscreens/">Shower Screens</a>
+														<ul>
+															{% for post in site.showerscreens %}
+															{% if post.categories contains "showerscreens" %}
+															 <li>
+																 <a href="{{post.url}}">{{ post.title }}</a>
+															 </li>
+															{% endif %}
+															{% endfor %}
+														</ul>
+												</li>
+												<li>
+														<a href="{{site.baseurl}}/products/mirrors/">Mirrors</a>
+														<!-- <ul>
+															{% for post in site.mirrors %}
+															{% if post.category contains "mirrors" %}
+															 <li>
+																 <a href="{{post.url}}">{{ post.title }}</a>
+															 </li>
+															{% endif %}
+															{% endfor %}
+														</ul> -->
+												</li>
+												<li>
+														<a href="{{site.baseurl}}/products/wardrobes/">Wardrobe Doors</a>
+												</li>
+												<li>
+														<a href="{{site.baseurl}}/products/splashbacks">Splashbacks</a>
+														<!-- <ul>
+															{% for post in site.splashbacks %}
+															{% if post.category contains "splashbacks" %}
+															 <li>
+																 <a href="{{post.url}}">{{ post.title }}</a>
+															 </li>
+															{% endif %}
+															{% endfor %}
+														</ul> -->
+												</li>
+												<li>
+														<a href="{{site.baseurl}}/products/shelving">Internal Shelving</a>
+
+												</li>
+												<li>
+														<a href="{{site.baseurl}}/products/glass-pool-fencing">Glass Pool Fence</a>
+														<!-- <ul>
+															{% for post in site.glass-pool-fencing %}
+															{% if post.categories contains "glass-pool-fencing" %}
+															 <li>
+																 <a href="{{post.url}}">{{ post.title }}</a>
+															 </li>
+															{% endif %}
+															{% endfor %}
+														</ul> -->
+												</li>
+												<li>
+														<a href="{{site.baseurl}}/products/glass-balustrading">Glass Balustrading</a>
+														<!-- <ul>
+															{% for post in site.glass-balustrading %}
+															{% if post.category contains "glass-balustrading" %}
+															 <li>
+																 <a href="{{post.url}}">{{ post.title }}</a>
+															 </li>
+															{% endif %}
+															{% endfor %}
+														</ul> -->
+												</li>
+
+												<li>
+														<a href="{{site.baseurl}}/products/accessories">Accessories</a>
+														<!-- <ul>
+															{% for post in site.accessories %}
+															{% if post.category contains "accessories" %}
+															 <li>
+																 <a href="{{post.url}}">{{ post.title }}</a>
+															 </li>
+															{% endif %}
+															{% endfor %}
+														</ul> -->
+												</li>
+										</ul>
+								</li>
+								<li>
+										<a href="#">
+												About Us
+										</a>
+										<ul>
+												<li>
+														<a href="{{site.baseurl}}/the-team">About Us</a>
+												</li>
+												<li>
+														<a href="{{site.baseurl}}/testimonials">Testimonials</a>
+												</li>
+										</ul>
+								</li>
+
+								<li>
+										<a href="{{site.baseurl}}/contact">
+												Contact
+										</a>
+								</li>
+
+						</ul>
+				</div>
+				<!--end nav module-->
+		</div>
+		<!--end nav bar-->
+		<div class="nav-mobile-toggle visible-sm visible-xs">
+				<i class="icon-Align-Right icon icon--sm"></i>
+		</div>
+</nav>

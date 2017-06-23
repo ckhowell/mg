@@ -1,0 +1,23 @@
+<section class="height-70 bg--dark imagebg page-title project-single-title page-title--animate parallax" data-overlay="3">
+
+    {% for image in site.static_files %}
+    {% if image.path contains 'img/showerscreens/framed/hero' %}
+    <img src="{{site.baseurl}}{{image.path}}">
+    {% endif %}
+    {% endfor %}
+
+    <div class="container pos-vertical-center">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h2>{{ page.title }}</h2>
+                  <div class="col-sm-8 col-sm-offset-2 text-center">
+                  <p class="lead">
+                    {{page.value-prop}}
+                  </div>
+                  </p>
+            </div>
+        </div>
+        <!--end row-->
+    </div>
+    <!--end container-->
+</section>

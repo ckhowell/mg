@@ -1,0 +1,56 @@
+---
+layout: default-layout
+title: Semi-Frameless Showerscreens
+description: Gold Coast Supplier and installer of Framed, Frameless, Semi-Frameless and Panel only Showerscreens.
+image_path: /img/showerscreens/semi-frameless/
+category: showerscreens
+product: semi-frameless-showerscreens
+value-prop: With a slim perimeter a semi-frameless showerscreen will create an exciting, visually spacious and stylish bathroom.
+---
+{% assign product = site.data.showerscreens[page.product] %}
+
+<section class="height-70 bg--dark imagebg page-title project-single-title page-title--animate parallax" data-overlay="3">
+    <div class="background-image-holder">
+      {% for image in site.static_files %}
+      {% if image.path contains 'img/showerscreens/semi-frameless/hero' %}
+          <img src="{{site.baseurl}}{{image.path}}">
+      {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="container pos-vertical-center">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h2>{{ page.title }}</h2>
+                  <div class="col-sm-8 col-sm-offset-2 text-center">
+                  <p class="lead">
+                    {{page.value-prop}}
+                  </div>
+                  </p>
+            </div>
+        </div>
+        <!--end row-->
+    </div>
+    <!--end container-->
+</section>
+
+{% include content.html %}
+
+
+<section class="project-single-stacked">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+              {% for image in site.static_files %}
+              {% if image.path contains 'img/showerscreens/semi-frameless' %}
+                  <img src="{{site.baseurl}}{{image.path}}">
+              {% endif %}
+              {% endfor %}
+            </div>
+        </div>
+        <!--end of row-->
+
+
+    </div>
+    <!--end of container-->
+</section>

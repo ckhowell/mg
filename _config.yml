@@ -1,0 +1,60 @@
+# Site settings
+title: Millennium Glass
+email: accounts@millenniumglass.com.au
+description: Gold Coast Supplier and installer of Showerscreens, Mirrors, Splashbacks, Wardrobe Doors, Shelving, Pool fencing and Glass Balustrade.
+baseurl: ""
+# baseurl: "http://halfnine.com.au/mg"
+url: "http://mglass.s3-website-ap-southeast-2.amazonaws.com"
+permalink: /:categories/:title/
+breadcrumbs: true  # disabled by default
+include: ['_pages']
+paginate: 2
+collections:
+  showerscreens:
+      output: true
+      permalink: /products/:categories/:path/
+  mirrors:
+      output: true
+      permalink: /products/:categories/:path/
+  wardrobes:
+      output: true
+      permalink: /products/:categories/:path/
+  splashbacks:
+      output: true
+      permalink: /products/:categories/:path/
+  accessories:
+      output: true
+      permalink: /products/:categories/:path/
+  architectural-glass:
+      output: true
+      permalink: /products/:categories/:path/
+  glass-balustrading:
+      output: true
+      permalink: /products/:categories/:path/
+  glass-pool-fencing:
+      output: true
+      permalink: /products/:categories/:path/
+  shelving:
+      output: true
+      permalink: /products/:categories/:path/
+
+
+
+
+# Build settings
+markdown: kramdown
+
+source:      .
+exclude:
+  - special.css
+  - style.css
+destination: ./_site
+plugins_dir:     ./_plugins
+
+css_source_dir:  css
+css_output_file: /css/style.min.css
+
+gems:
+- Jekyll-sitemap
+- jekyll-paginate
+paginate_path: "page:num"

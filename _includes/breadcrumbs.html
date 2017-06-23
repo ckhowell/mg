@@ -1,0 +1,27 @@
+<section class="masonry-contained">
+    <div class="container">
+        <div class="row">
+            <div class="masonry">
+                <div class"masonry__filters">
+                  {% for crumb in breadcrumbs %}
+                  <ul>
+                    <li class="masonry__filters" >
+
+
+                    <a href="{{ crumb.url | prepend:site.baseurl }}">
+                      {{
+                        crumb.title
+                      }}
+                    </a>
+                    </li>
+
+                    {% unless forloop.last == true %}
+                      >
+                    {% endunless %}
+                  {% endfor %}
+                </ul>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
