@@ -1,0 +1,59 @@
+---
+layout: default-layout
+title: Wardrobe Shelving
+description: Quality designed, custom built internal shelving with the best in materials and affordability.
+permalink: /products/wardrobe-doors/shelving/
+image_path: /img/wardrobe-doors/shelving/
+category: wardrobe-doors
+product: slimline
+value-prop:  Standard Internal Bedroom Wardrobe shelving.  We also help with Linen Closets, Laundry and Garage storage solutions.
+lead: Our quick turnaround allows us to quote and install usually within a week.  Whatever your requirements are, we will work with you to design a storage solution to suit your needs and maximise every space possible.
+lead2: Quality designed, custom built internal shelving with the best in materials and affordability.
+---
+{% assign product = site.data.wardrobes[page.product] %}
+
+<section class="height-70 bg--dark imagebg page-title project-single-title page-title--animate parallax" data-overlay="3">
+    <div class="background-image-holder">
+      {% for image in site.static_files %}
+      {% if image.path contains '/img/shelving/wardrobe-shelving-gold-coast-01.jpg' %}
+          <img src="{{site.baseurl}}{{image.path}}">
+      {% endif %}
+      {% endfor %}
+    </div>
+
+
+
+    <div class="container pos-vertical-center">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+              <h1>{{ page.title }}</h1>
+                  <div class="col-sm-8 col-sm-offset-2 text-center">
+                  <p class="lead">
+                    {{page.value-prop}}
+                  </div>
+                  </p>
+            </div>
+        </div>
+        <!--end row-->
+    </div>
+    <!--end container-->
+</section>
+{% include intro-section.html %}
+
+
+
+<section class="project-single-stacked">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+              {% for image in site.static_files %}
+              {% if image.path contains '/img/wardrobe-doors/shelving/' %}
+                  <img src="{{site.baseurl}}{{image.path}}">
+              {% endif %}
+              {% endfor %}
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>

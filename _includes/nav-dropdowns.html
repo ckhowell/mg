@@ -1,0 +1,228 @@
+<div class="nav-container ">
+	<div class="bar bar--sm visible-xs">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-3 col-sm-2">
+					<a href="{{site.baseurl}}/">
+												<img class="logo logo-dark" alt="logo" src="{{site.baseurl}}/img/logo-dark.png" />
+												<img class="logo logo-light" alt="logo" src="{{site.baseurl}}/img/logo-light.png" />
+										</a>
+				</div>
+				<div class="col-xs-9 col-sm-10 text-right">
+					<a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
+												<i class="icon icon--sm stack-interface stack-menu"></i>
+										</a>
+				</div>
+			</div>
+			<!--end of row-->
+		</div>
+		<!--end of container-->
+	</div>
+	<!--end bar-->
+	<nav id="menu1" class="bar bar--sm bar-1 hidden-xs ">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1 col-sm-2 hidden-xs">
+					<div class="bar__module">
+						<a href="{{site.baseurl}}/">
+													<img class="logo logo-dark" alt="logo" src="{{site.baseurl}}/img/logo-dark.png" />
+													<img class="logo logo-light" alt="logo" src="{{site.baseurl}}/img/logo-light.png" />
+											</a>
+					</div>
+					<!--end module-->
+				</div>
+				<div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
+					<div class="bar__module">
+						<ul class="menu-horizontal text-left">
+							<li class="dropdown">
+								<a href="{{site.baseurl}}/">Home</a
+												</li>
+												<li class="dropdown">
+													<span class="dropdown__trigger">Products</span>
+													<div class="dropdown__container">
+															<div class="container">
+																	<div class="row">
+																			<div class="dropdown__content col-md-4 col-sm-4">
+																					<ul class="menu-vertical">
+																							<li class="dropdown">
+																									<span class="dropdown__trigger">Shower Screens</span>
+																									<div class="dropdown__container">
+																											<div class="container">
+																													<div class="row">
+																															<div class="dropdown__content col-md-3">
+																																	<ul class="menu-vertical">
+																																		{% for post in site.showerscreens %}
+																																		{% if post.categories contains "showerscreens" %}
+																																		 <li>
+																																			 <a href="{{post.url}}">{{ post.title }}</a>
+							</li>
+							{% endif %} {% endfor %}
+						</ul>
+					</div>
+					<!--end dropdown content-->
+				</div>
+				<!--end row-->
+			</div>
+		</div>
+		<!--end dropdown container-->
+		</li>
+		<li class="dropdown">
+			<span class="dropdown__trigger">Mirrors</span>
+			<div class="dropdown__container">
+				<div class="container">
+					<div class="row">
+						<div class="dropdown__content col-md-2 col-sm-4">
+							<ul class="menu-vertical">
+								{% for post in site.mirrors %} {% if post.category contains "mirrors" %}
+								<li>
+									<a href="{{post.url}}">{{ post.title }}</a>
+								</li>
+								{% endif %} {% endfor %}
+							</ul>
+						</div>
+						<!--end dropdown content-->
+					</div>
+					<!--end row-->
+				</div>
+			</div>
+			<!--end dropdown container-->
+		</li>
+		<li class="dropdown">
+			<span class="dropdown__trigger">Aluminium Fencing</span></a>
+			<div class="dropdown__container">
+				<div class="container">
+					<div class="row">
+						<div class="dropdown__content col-md-3 col-sm-4">
+							<ul class="menu-vertical">
+								{% for post in site.aluminium-fencing %} {% if post.category contains "aluminium-fencing" %}
+								<li>
+									<a href="{{post.url}}">{{ post.title }}</a>
+								</li>
+								{% endif %} {% endfor %}
+							</ul>
+						</div>
+						<!--end dropdown content-->
+					</div>
+					<!--end row-->
+				</div>
+			</div>
+			<!--end dropdown container-->
+		</li>
+		<li class="dropdown">
+			<span class="dropdown__trigger">Glass Fencing & Balustrade</span></a>
+			<div class="dropdown__container">
+				<div class="container">
+					<div class="row">
+						<div class="dropdown__content col-md-3 col-sm-4">
+							<ul class="menu-vertical">
+								{% for post in site.glass-fencing %} {% if post.category contains "glass-fencing" %}
+								<li>
+									<a href="{{post.url}}">{{ post.title }}</a>
+								</li>
+								{% endif %} {% endfor %}
+							</ul>
+						</div>
+						<!--end dropdown content-->
+					</div>
+					<!--end row-->
+				</div>
+			</div>
+			<!--end dropdown container-->
+		</li>
+		<li class="dropdown">
+			<span class="dropdown__trigger">Wardrobe Doors</span></a>
+			<div class="dropdown__container">
+				<div class="container">
+					<div class="row">
+						<div class="dropdown__content col-md-3 col-sm-4">
+							<ul class="menu-vertical">
+								{% for post in site.wardrobe-doors %} {% if post.category contains "wardrobe-doors" %}
+								<li>
+									<a href="{{post.url}}">{{ post.title }}</a>
+								</li>
+								{% endif %} {% endfor %}
+							</ul>
+						</div>
+						<!--end dropdown content-->
+					</div>
+					<!--end row-->
+				</div>
+			</div>
+			<!--end dropdown container-->
+		</li>
+		<li>
+			<a href="{{site.baseurl}}/products/splashbacks">
+																									<span class="dropdown__trigger">Splashbacks</span></a>
+			<!--end dropdown container-->
+		</li>
+
+		<li>
+			<a href="{{site.baseurl}}/products/accessories">Accessories</a>
+			<!-- <ul>
+															{% for post in site.accessories %}
+															{% if post.category contains "accessories" %}
+															 <li>
+																 <a href="{{post.url}}">{{ post.title }}</a>
+															 </li>
+															{% endif %}
+															{% endfor %}
+														</ul> -->
+		</li>
+		</ul>
+		</li>
+
+		<li class="dropdown">
+			<span class="dropdown__trigger">About Us</span>
+			<div class="dropdown__container">
+				<div class="container">
+					<div class="row">
+						<div class="dropdown__content col-md-2 col-sm-4">
+							<ul class="menu-vertical">
+								<li>
+									<a href="{{site.baseurl}}/about">About Us</a>
+								</li>
+								<li>
+									<a href="{{site.baseurl}}/testimonials">Testimonials</a>
+								</li>
+							</ul>
+		</li>
+
+		<li>
+			<a href="{{site.baseurl}}/builders">
+												For Builders
+										</a>
+		</li>
+		<li>
+			<a href="{{site.baseurl}}/diy">
+												For DIY
+										</a>
+		</li>
+		<li>
+			<a href="{{site.baseurl}}/contact">
+												Contact
+										</a>
+		</li>
+
+		</ul>
+		</div>
+		<!--end nav module-->
+		<div class="bar__module">
+			<a class="btn btn--sm btn--primary type--uppercase" href="tel:07 5593 5898">
+								<span class="btn__text">
+										CALL: 5593 5898
+								</span>
+						</a>
+		</div>
+		</div>
+		</div>
+		</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--end nav bar-->

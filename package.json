@@ -1,6 +1,6 @@
 {
-  "name": "cataloguedesigner.com.au",
-  "version": "1.0.0",
+  "name": "millenniumglass.com.au",
+  "version": "1.0.1",
   "dependencies": {
     "gulp": "^3.9.0",
     "gulp-concat": "2.5.2",
@@ -24,10 +24,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/ckhowell/catalogue-designer.git"
+    "url": "git+ssh://git@bitbucket.org/ckhowell/millenniumglass.git"
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/ckhowell/catalogue-designer#readme",
+  "homepage": "https://bitbucket.org/ckhowell/millenniumglass#readme",
   "description": ""
 }

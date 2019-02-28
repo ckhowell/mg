@@ -6,13 +6,13 @@ image_path: /img/showerscreens/framed/
 categories: showerscreens
 product: framed-showerscreens
 value-prop:  The choice for value. The framed showerscreens are proven to be long-lasting while being budget-friendly.
+brochure: /brochure/framed.pdf
 ---
-{% assign product = site.data.showerscreens[page.product]  %}
 
 <section class="height-70 bg--dark imagebg page-title project-single-title page-title--animate parallax" data-overlay="3">
   <div class="background-image-holder">
     {% for image in site.static_files %}
-    {% if image.path contains 'img/showerscreens/framed' %}
+    {% if image.path contains 'img/showerscreens/framed/hero' %}
         <img src="{{site.baseurl}}{{image.path}}">
     {% endif %}
     {% endfor %}
@@ -21,7 +21,7 @@ value-prop:  The choice for value. The framed showerscreens are proven to be lon
     <div class="container pos-vertical-center">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h2>{{ page.title }}</h2>
+                <h1>{{ page.title }}</h1>
                   <div class="col-sm-8 col-sm-offset-2 text-center">
                   <p class="lead">
                     {{page.value-prop}}
@@ -52,3 +52,5 @@ value-prop:  The choice for value. The framed showerscreens are proven to be lon
     </div>
     <!--end of container-->
 </section>
+
+{% include brochure.html %}

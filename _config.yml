@@ -2,44 +2,34 @@
 title: Millennium Glass
 email: accounts@millenniumglass.com.au
 description: Gold Coast Supplier and installer of Showerscreens, Mirrors, Splashbacks, Wardrobe Doors, Shelving, Pool fencing and Glass Balustrade.
-baseurl: ""
-# baseurl: "http://halfnine.com.au/mg"
-url: "http://mglass.s3-website-ap-southeast-2.amazonaws.com"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://millenniumglass.com.au/"
 permalink: /:categories/:title/
+permalink: /:year/:month/:day/:title/
 breadcrumbs: true  # disabled by default
 include: ['_pages']
-paginate: 2
 collections:
-  showerscreens:
+  accessories:
+      output: true
+      permalink: /products/:categories/:path/
+  aluminium-fencing:
+      output: true
+      permalink: /products/:categories/:path/
+  glass-fencing:
+      output: true
+      permalink: /products/:categories/:path/
+  wardrobe-doors:
       output: true
       permalink: /products/:categories/:path/
   mirrors:
       output: true
       permalink: /products/:categories/:path/
-  wardrobes:
+  showerscreens:
       output: true
       permalink: /products/:categories/:path/
   splashbacks:
       output: true
       permalink: /products/:categories/:path/
-  accessories:
-      output: true
-      permalink: /products/:categories/:path/
-  architectural-glass:
-      output: true
-      permalink: /products/:categories/:path/
-  glass-balustrading:
-      output: true
-      permalink: /products/:categories/:path/
-  glass-pool-fencing:
-      output: true
-      permalink: /products/:categories/:path/
-  shelving:
-      output: true
-      permalink: /products/:categories/:path/
-
-
-
 
 # Build settings
 markdown: kramdown
@@ -54,7 +44,23 @@ plugins_dir:     ./_plugins
 css_source_dir:  css
 css_output_file: /css/style.min.css
 
-gems:
-- Jekyll-sitemap
-- jekyll-paginate
-paginate_path: "page:num"
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js
+  - s3_website.yml
+  - Gemfile
+  - Rakefile
+  - deploy.sh
+
+# Server Config options
+livereload: true     # You no longer need to include --livereload
+reload_port: 5678    # If you don't want to use the default port
+
+plugins: [jekyll-paginate]
+paginate: 4
+paginate_path: /blog/page:num/
+
+username: developer@millenniumglass.com.au
+server_url: ftp.millenniumglass.com.au
+remote_dir: /public_html

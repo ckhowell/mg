@@ -1,0 +1,55 @@
+<section class="space--sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+        <div class="masonry masonry-blog-list">
+          <hr>
+          <div>
+            {% for post in paginator.posts %}
+            <article class="masonry-blog-list article">
+            <div class="article__title text-center">
+                <a href="{{ post.url }}">
+                  <h2>{{ post.title }}</h2>
+                </a>
+                <span>{{ post.date | date_to_string }}</span>
+              </div>
+              <!--end article title-->
+              <div class="article__body">
+                <a href="{{ post.url }}">
+                  <img alt="Image" src="{{site.baseurl}}{{post.image}}">
+                </a>
+                <p>
+                  {{ post.content | strip_html | truncatewords: 50 }}
+                </p>
+                <a href="{{ post.url }}">Continue reading »</a>
+              </div>
+            </article>
+            {% endfor %}
+            <!--end item-->
+          </div>
+          <!--end of masonry container-->
+
+          <!-- Pagination links -->
+          <div class="pagination">
+            {% if paginator.previous_page %}
+            <a class="pagination__prev" href="{{ paginator.previous_page_path}}" title="Previous Page">«</a>
+            {% else %}
+            <span class="pagination__prev" title="Previous Page"></span>
+            {% endif %}
+            <span class="page_number">
+              Page: {{ paginator.page }} of {{ paginator.total_pages }}
+            </span>
+            {% if paginator.next_page %}
+            <a class="pagination__next" href="{{paginator.next_page_path}}" title="Next Page">»</a>
+            {{% else %}}
+            <span class="pagination__next" title="Next Page"></span>
+            {% endif %}
+          </div>
+        </div>
+        <!--end masonry-->
+      </div>
+    </div>
+    <!--end of row-->
+  </div>
+  <!--end of container-->
+</section>

@@ -3,5 +3,31 @@ Add your custom styles below
 ****************************/
 
 .btn--primary {
-  color: white;
+    color: white;
 }
+
+.menu>li>a {
+    padding: 2em 1.3em !important;
+    height: 100%;
+    display: inline-block;
+}
+
+.list-inline--images img {
+    min-height: 6em !important;
+}
+
+.slides:not(.flickity-enabled) li.imagebg:first-child .container {
+    opacity: 1;
+}
+
+.feature-1 p {
+    min-height: 0em;
+}
+
+.pagination__prev, .pagination__next {
+    font-size: 1.5em !important;
+}
+
+/* .owl-theme .owl-controls {
+  margin-top: 60px !important;
+} */

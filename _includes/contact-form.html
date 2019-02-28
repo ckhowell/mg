@@ -1,65 +1,64 @@
-
-
-
-<section class="features features-10">
-    <div class="feature bg--white col-md-4 text-center">
-        <i class="icon icon--lg icon-Map-Marker2"></i>
-        <h4>Drop on in</h4>
-        <p><a href="https://goo.gl/maps/VKqXqKRYwPC2">
-          17/78 Hutchinson Street
-            <br /> Burleigh Heads
-            <br /> Queensland 4221</a>
-        </p>
-    </div>
-    <div class="feature bg--secondary col-md-4 text-center">
-        <i class="icon icon--lg icon-Phone-2"></i>
-        <h4>Give us a call</h4>
-        <p>
-            Mobile: <a href="tel:0400 772 573">0400 772 573</a>
-            <br /> or: <a href="tel:0414 588 451">0414 588 451</a>
-        </p>
-    </div>
-    <div class="feature bg--dark col-md-4 text-center">
-        <i class="icon icon--lg icon-Computer"></i>
-        <h4>Connect online</h4>
-        <p>
-            Email:
-            <a href="mailto:sales@millenniumglass.com.au">sales@millenniumglass.com.au</a>
-        </p>
-    </div>
-</section>
-
-<section>
+<section class=" ">
     <div class="container">
         <div class="row">
-            <div class="col-sm-8 col-sm-offset-2 text-center">
-              <h4>Send us a message</h4>
+            <div class="masonry">
+                <div class="masonry__container">
+                    <div class="col-sm-4 masonry__item">
+                        <div class="card text-center">
+                            <div class="card__top">
+                                  <i class="icon icon--lg icon-Map-Marker2"></i>
+                            </div>
+                            <div>
+                              <h4>Drop on in</h4>
+                                <span class="type--fade">We are located just off the M1</span>
+                                <p class="text-center"><a href="https://www.google.com.au/maps/place/Millennium+Glass/@-28.1130164,153.4163759,19z/data=!4m13!1m7!3m6!1s0x6b9102e093bec7bb:0x2be9f38a1c9c912!2s78%2F76+Hutchinson+St,+Burleigh+Heads+QLD+4220,+Australia!3b1!8m2!3d-28.1129153!4d153.4168661!3m4!1s0x6b9102e0934e4567:0xa0a8e01ebee564d3!8m2!3d-28.1129153!4d153.4168661">
+                                  17/78 Hutchinson Street
+                           <br /> Burleigh Heads
+                           <br /> Queensland 4221</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 masonry__item">
+                        <div class="card text-center">
+                            <div class="card__top">
+                              <i class="icon icon--lg icon-Phone-2"></i>
+                            </div>
+                            <div>
+                              <h4>Give us a call</h4>
 
-                <form class="form--square form-email" data-success="Thanks for your enquiry, we'll be in touch soon" data-error="Please fill all required fields">
-                    <div class="input-with-icon col-sm-12">
-                        <i class="icon-MaleFemale"></i>
-                        <input class="validate-required" type="text" name="name" placeholder="Your Name" />
+                                <span class="type--fade">Make it easy and just give us a ring</span>
+                                <p>
+                                    Telephone: <a href="tel:07 5593 5898">5593 5898</a>
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="input-with-icon col-sm-6">
-                        <i class="icon-Email"></i>
-                        <input class="validate-required validate-email" type="email" name="email" placeholder="Email Address" />
+                    <div class="col-sm-4 masonry__item">
+                        <div class="card text-center">
+                            <div class="card__top">
+                              <i class="icon icon--lg icon-Computer"></i>
+                            </div>
+                            <div>
+                              <h4>Connect online</h4>
+                                <span class="type--fade">Shoot us an email</span>
+                                <p>
+                                    Email:
+                                    <a href="mailto:sales@millenniumglass.com.au">sales@millenniumglass.com.au</a>
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="input-with-icon col-sm-6">
-                        <i class="icon-Phone-2"></i>
-                        <input type="tel" name="telephone" placeholder="Phone Number" />
-                    </div>
-                    <div class="col-sm-12">
-                        <textarea class="validate-required" name="message" placeholder="Your Message" rows="8"></textarea>
-                    </div>
-                    <div class="col-sm-12">
-                        <button type="submit" class="btn btn--primary">
-                            Submit Form
-                        </button>
-                    </div>
-                </form>
+                </div>
+                <!--end of masonry__container-->
             </div>
+            <!--end of masonry-->
         </div>
         <!--end of row-->
     </div>
     <!--end of container-->
 </section>
+
+
+
+{% include contact-cta.html %}

@@ -29,6 +29,21 @@ $websiteName                = 'Millennium Glass';                // REQUIRED val
 
 $timeZone					= 'Australia/Melbourne';         // OPTIONAL, but some servers require this to be set.
                                                              // See a list of all supported timezones at: http://php.net/manual/en/timezones.php
+// Google reCAPTCHA
+$recaptchaSecretKey         = '6Lff3pIUAAAAAOeIhojJIyNBTSVo4m_8CuECyrki';
+$recaptchaErrorMessage      = 'There was a problem verifying the Google reCaptcha.  Please try again.';
+
+// Confirmation Message
+$sendConfirmationToUser     = false; // leave false to disable confirmation, or use path to an html email template.
+$confirmationSubject        = "Thanks for Contacting Company Name"; // The subject of the confirmation email
+$confirmationFromName       = "Company Name"; // Used in the "from" field of the email.
+$userEmailField             = "email";
+$defaultUserName            = "User"; // Used if the form does not include a "name" field.
+
+// CSV
+$saveToCSV                  = "email_form.csv";
+
+
  /*----------------------------------------------------------------------------*\
 |*  You do not need to edit anything below this line, the rest is automatic.    *|
  \*============================================================================*/

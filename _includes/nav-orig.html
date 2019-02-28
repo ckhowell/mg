@@ -1,0 +1,149 @@
+<nav>
+
+		<div class="nav-bar nav--absolute nav--transparent" data-fixed-at="200">
+				<div class="nav-module logo-module left">
+						<a href="{{site.baseurl}}/">
+								<img class="logo logo-dark" alt="logo" src="{{site.baseurl}}/img/logo-dark.png" />
+								<img class="logo logo-light" alt="logo" src="{{site.baseurl}}/img/logo-light.png" />
+						</a>
+				</div>
+				<div class="nav-module menu-module left bar__module">
+						<ul class="menu">
+								<li>
+										<a href="#">
+												Products
+										</a>
+										<ul>
+												<li class="dropdown">
+														<a href="{{site.baseurl}}/products/showerscreens/">Shower Screens</a>
+														<ul>
+															{% for post in site.showerscreens %}
+															{% if post.categories contains "showerscreens" %}
+															 <li>
+																 <a href="{{post.url}}">{{ post.title }}</a>
+															 </li>
+															{% endif %}
+															{% endfor %}
+														</ul>
+												</li>
+												<li class="dropdown">
+														<a href="{{site.baseurl}}/products/mirrors/">Mirrors</a>
+														<ul>
+															{% for post in site.mirrors %}
+															{% if post.category contains "mirrors" %}
+															 <li>
+																 <a href="{{post.url}}">{{ post.title }}</a>
+															 </li>
+															{% endif %}
+															{% endfor %}
+														</ul>
+												</li>
+												<li class="dropdown">
+														<a href="{{site.baseurl}}/products/aluminium-fencing/">Aluminium Fencing</a>
+														<ul>
+															{% for post in site.aluminium-fencing %}
+															{% if post.category contains "aluminium-fencing" %}
+															 <li>
+																 <a href="{{post.url}}">{{ post.title }}</a>
+															 </li>
+															{% endif %}
+															{% endfor %}
+														</ul>
+												</li>
+												<li class="dropdown">
+														<a href="{{site.baseurl}}/products/glass-fencing/">Glass Fencing & Balustrade</a>
+														<ul>
+															{% for post in site.glass-fencing %}
+															{% if post.category contains "glass-fencing" %}
+															 <li>
+																 <a href="{{post.url}}">{{ post.title }}</a>
+															 </li>
+															{% endif %}
+															{% endfor %}
+														</ul>
+												</li>
+												<li class="dropdown">
+														<a href="{{site.baseurl}}/products/wardrobe-doors/">Wardrobe Doors</a>
+														<ul>
+															{% for post in site.wardrobe-doors %}
+															{% if post.category contains "wardrobe-doors" %}
+															 <li>
+																 <a href="{{post.url}}">{{ post.title }}</a>
+															 </li>
+															{% endif %}
+															{% endfor %}
+														</ul>
+												</li>
+												<li>
+														<a href="{{site.baseurl}}/products/splashbacks">Splashbacks</a>
+														<!-- <ul>
+															{% for post in site.splashbacks %}
+															{% if post.category contains "splashbacks" %}
+															 <li>
+																 <a href="{{post.url}}">{{ post.title }}</a>
+															 </li>
+															{% endif %}
+															{% endfor %}
+														</ul> -->
+												</li>
+												<li>
+														<a href="{{site.baseurl}}/products/accessories">Accessories</a>
+														<!-- <ul>
+															{% for post in site.accessories %}
+															{% if post.category contains "accessories" %}
+															 <li>
+																 <a href="{{post.url}}">{{ post.title }}</a>
+															 </li>
+															{% endif %}
+															{% endfor %}
+														</ul> -->
+												</li>
+										</ul>
+								</li>
+								<li>
+										<a href="#">
+												About Us
+										</a>
+										<ul>
+												<li>
+														<a href="{{site.baseurl}}/about">About Us</a>
+												</li>
+												<li>
+														<a href="{{site.baseurl}}/testimonials">Testimonials</a>
+												</li>
+										</ul>
+								</li>
+
+								<li>
+										<a href="{{site.baseurl}}/builders">
+												For Builders
+										</a>
+								</li>
+								<li>
+										<a href="{{site.baseurl}}/diy">
+												For DIY
+										</a>
+								</li>
+								<li>
+										<a href="{{site.baseurl}}/contact">
+												Contact
+										</a>
+								</li>
+
+						</ul>
+				</div>
+				<!--end nav module-->
+				<div class="nav-module right hidden-xs">
+
+						<a class="btn btn--primary btn--icon" href="tel:07 5593 5898" style="margin-right:40px">
+								CALL: 5593 5898
+							</span>
+
+					</a>
+				</div>
+		</div>
+		<!--end nav bar-->
+		<div class="nav-mobile-toggle visible-sm visible-xs">
+				<i class="icon-Align-Right icon icon--sm"></i>
+		</div>
+</nav>

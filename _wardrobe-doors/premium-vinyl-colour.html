@@ -1,0 +1,55 @@
+---
+layout: default-layout
+title: Premium Vinyl Colour Wardrobe Doors
+description: Gold Coast Supplier and installer of Wardrobe doors.
+permalink: /products/wardrobe-doors/premium-vinyl-colour/
+image_path: /img/wardrobe-doors/premium-vinyl-colour/
+category: wardrobe-doors
+product: premium-vinyl-colour
+value-prop:  Make a statement with premium vinyl doors.
+---
+{% assign product = site.data.wardrobe-doors[page.product] %}
+
+<section class="height-70 bg--dark imagebg page-title project-single-title page-title--animate parallax" data-overlay="3">
+    <div class="background-image-holder">
+      {% for image in site.static_files %}
+      {% if image.path contains 'img/wardrobe-doors/premium-vinyl-colour/hero' %}
+          <img src="{{site.baseurl}}{{image.path}}">
+      {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="container pos-vertical-center">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+              <h1>{{ page.title }}</h1>
+                  <div class="col-sm-8 col-sm-offset-2 text-center">
+                  <p class="lead">
+                    {{page.value-prop}}
+                  </div>
+                  </p>
+            </div>
+        </div>
+        <!--end row-->
+    </div>
+    <!--end container-->
+</section>
+
+{% include content.html %}
+
+
+<section class="project-single-stacked">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+              {% for image in site.static_files %}
+              {% if image.path contains 'img/wardrobe-doors/premium-vinyl-colour/' %}
+                  <img src="{{site.baseurl}}{{image.path}}">
+              {% endif %}
+              {% endfor %}
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
