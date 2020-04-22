@@ -1,34 +1,102 @@
-<section class="text-center bg--secondary ">
-    <div class="container">
+<section class="text-center bg--dark ">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-md-7">
         <div class="row">
-            <div class="col-sm-8 col-md-7">
-                <div class="row">
-                 <h4 class="text-center">Contact us for a free measure and quote&hellip;</h4>
-                    <form class="form-email row" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly." data-recaptcha-sitekey="6Lff3pIUAAAAAJFgpgokTjv7MZ_lJCrB0eAXnLwV" >
-                      <div class="col-sm-6">
-                            <label>Your Name:</label>
-                            <input type="text" name="Name" class="validate-required" />
-                        </div>
-                        <div class="col-sm-6">
-                            <label>Email Address:</label>
-                            <input type="email" name="email" class="validate-required validate-email" />
-                        </div>
-                        <div class="col-sm-12">
-                            <label>Message:</label>
-                            <textarea rows="6" name="Message" class="validate-required"></textarea>
-                        </div>
-                            <div class="col-xs-12">
-                                <div class="recaptcha"></div>
-                            </div>
-                        <div class="col-sm-5 col-md-4">
-                            <button type="submit" class="btn btn--primary type--uppercase">Send Enquiry</button>
-                        </div>
-                    </form>
-                </div>
-                <!--end of row-->
+          <h4 class="text-center">
+            Contact us for a free measure and quote&hellip;
+          </h4>
+          <form
+            action="https://formspree.io/mknnagny"
+            method="POST"
+            class="row"
+            data-success="Thanks for your enquiry, we'll be in touch shortly."
+            data-error="Please fill in all fields correctly."
+            data-recaptcha-sitekey="6Lff3pIUAAAAAJFgpgokTjv7MZ_lJCrB0eAXnLwV"
+          >
+            <div class="col-md-6">
+              <label>Your Name:*</label>
+              <input
+                type="text"
+                name="Name"
+                placeholder="Type Name Here"
+                class="validate-required"
+              />
             </div>
+            <div class="col-md-6">
+              <label>Phone Number:*</label>
+              <input
+                type="phone"
+                name="Phone"
+                placeholder="Phone"
+                class="validate-required"
+              />
+            </div>
+            <div class="col-md-12">
+              <label>Email Address:</label>
+              <input
+                type="email"
+                name="_replyto"
+                placeholder="Email Address"
+                class="validate-required"
+              />
+            </div>
+
+            <div class="col-md-12">
+              <label>Street Address:</label>
+              <input type="text" name="Address" placeholder="Street Address" />
+              <input type="text" name="Suburb" placeholder="Suburb" />
+              <input type="text" name="State" placeholder="State" />
+            </div>
+            <div class="col-md-12">
+              <label>Message:</label>
+              <textarea
+                name="Message"
+                placeholder="Message"
+                rows="4"
+              ></textarea>
+            </div>
+
+            <div class="col-md-12">
+              <div class="input-select">
+                <select name="Product of Interest">
+                  <option selected="" value="Default"
+                    >Product of Interest</option
+                  >
+                  <option value="Shower Screens">Shower Screens</option>
+                  <option value="Aluminium Fencing">Aluminium Fencing</option>
+                  <option value="Glass Fencing & Balustrade"
+                    >Glass Fencing & Balustrade</option
+                  >
+                  <option value="Wardrobe Doors">Wardrobe Doors</option>
+                  <option value="Wardrobe Shelving">Wardrobe Shelving</option>
+                  <option value="Splashbacks">Splashbacks</option>
+                  <option value="Accessories">Accessories</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="recaptcha"></div>
+            </div>
+            <div class="col-md-12">
+              <button type="submit" class="btn btn--primary">Send Form</button>
+            </div>
+            <input
+              type="hidden"
+              name="_next"
+              value="http://www.millenniumglass.com.au/thanks/"
+            />
+            <input
+              type="hidden"
+              name="_subject"
+              value="New Website Sales Enquiry"
+            />
+          </form>
         </div>
         <!--end of row-->
+      </div>
     </div>
-    <!--end of container-->
+    <!--end of row-->
+  </div>
+  <!--end of container-->
 </section>

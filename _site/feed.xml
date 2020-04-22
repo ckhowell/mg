@@ -5,9 +5,9 @@
     <description>Gold Coast Supplier and installer of Showerscreens, Mirrors, Splashbacks, Wardrobe Doors, Shelving, Pool fencing and Glass Balustrade.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 28 Feb 2019 16:53:47 +0900</pubDate>
-    <lastBuildDate>Thu, 28 Feb 2019 16:53:47 +0900</lastBuildDate>
-    <generator>Jekyll v3.8.1</generator>
+    <pubDate>Wed, 22 Apr 2020 17:14:08 +1000</pubDate>
+    <lastBuildDate>Wed, 22 Apr 2020 17:14:08 +1000</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
     
       <item>
         <title>Caring for your shower screen</title>
@@ -25,7 +25,7 @@
 &lt;p&gt;Abrasives, ammonia. Bleach, acids, waxes, alcohol or solvents as they may damage the overall finish.&lt;/p&gt;
 
 </description>
-        <pubDate>Sun, 25 Nov 2018 00:00:00 +0900</pubDate>
+        <pubDate>Sun, 25 Nov 2018 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2018/11/25/caring-for-screens/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/11/25/caring-for-screens/</guid>
         
@@ -40,7 +40,7 @@
   &lt;p&gt;You can get this addition cheaper by adding the coating to your original order.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-        <pubDate>Sat, 24 Nov 2018 00:00:00 +0900</pubDate>
+        <pubDate>Sat, 24 Nov 2018 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2018/11/24/protecting-your-screens/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/11/24/protecting-your-screens/</guid>
         
@@ -82,7 +82,7 @@
 &lt;p&gt;Our MDF Wardrobes doors are a perfect choice for those wanting a colonial or groove look which can be portrayed in many different style homes. They are flexible in design and can be colour matched and painted any colour that will&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 23 Nov 2018 00:00:00 +0900</pubDate>
+        <pubDate>Fri, 23 Nov 2018 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2018/11/23/wardrobe-doors/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/11/23/wardrobe-doors/</guid>
         
@@ -114,7 +114,7 @@
 &lt;p&gt;Our special splashbacks have only one limit, and that is your imagination. Custom special splashbacks create a unique atmosphere in your home. Our experienced and innovative team can work with you to realize your vision.&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 22 Nov 2018 00:00:00 +0900</pubDate>
+        <pubDate>Thu, 22 Nov 2018 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2018/11/22/splashbacks/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/11/22/splashbacks/</guid>
         
@@ -141,7 +141,7 @@
   &lt;p&gt;Our team at Millennium Glass are experts can advise you on what mirror will enhance your design, and fit your desired room best, while always maintaining a high standard of quality.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-        <pubDate>Wed, 21 Nov 2018 00:00:00 +0900</pubDate>
+        <pubDate>Wed, 21 Nov 2018 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2018/11/21/mirrors/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/11/21/mirrors/</guid>
         
@@ -168,9 +168,21 @@
 
 &lt;p&gt;Our glass is not imported and is sourced from our suppliers in Brisbane.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 20 Nov 2018 00:00:00 +0900</pubDate>
+        <pubDate>Tue, 20 Nov 2018 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2018/11/20/shower-screen-tips/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/11/20/shower-screen-tips/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Test Title</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/uploads/2017/06/24/12520717.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 25 Jun 2017 04:28:18 +1000</pubDate>
+        <link>http://localhost:4000/2017/06/25/test-title/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/06/25/test-title/</guid>
         
         
       </item>

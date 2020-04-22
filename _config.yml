@@ -52,6 +52,7 @@ exclude:
   - Gemfile
   - Rakefile
   - deploy.sh
+  - vendor
 
 # Server Config options
 livereload: true     # You no longer need to include --livereload

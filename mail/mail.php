@@ -16,12 +16,12 @@ $outgoingServerSecurity     = 'ssl';                 // Options: 'ssl' , 'tls' ,
 
 // Sending Account Settings - replace these details with an email account held on the SMTP server entered above.
 // These 2 settings are only required if you choose 'smtp' for emailMethod above.
-$sendingAccountUsername     = 'hello@millenniumglass.com.au';
+$sendingAccountUsername     = 'sales@millenniumglass.com.au';
 $sendingAccountPassword     = 'R9sEQA2sJ25g';
 
 // Recipient (To:) Details  - Change this to the email details of who will receive all the emails from the website.
-$recipientEmail             = 'hello@millenniumglass.com.au'; // REQUIRED value.
-$recipientName              = 'Daniel Trotman';             // REQUIRED value.
+$recipientEmail             = 'sales@millenniumglass.com.au'; // REQUIRED value.
+$recipientName              = 'Mathias Coppola';             // REQUIRED value.
 
 // Email details            - Change these to suit your website needs
 $emailSubject               = 'Enquiry from millenniumglass.com.au'; // REQUIRED value. Subject of the email that the recipient will see
@@ -34,9 +34,9 @@ $recaptchaSecretKey         = '6Lff3pIUAAAAAOeIhojJIyNBTSVo4m_8CuECyrki';
 $recaptchaErrorMessage      = 'There was a problem verifying the Google reCaptcha.  Please try again.';
 
 // Confirmation Message
-$sendConfirmationToUser     = false; // leave false to disable confirmation, or use path to an html email template.
-$confirmationSubject        = "Thanks for Contacting Company Name"; // The subject of the confirmation email
-$confirmationFromName       = "Company Name"; // Used in the "from" field of the email.
+$sendConfirmationToUser     = true; // leave false to disable confirmation, or use path to an html email template.
+$confirmationSubject        = "Thanks for contacting Millennium Glass"; // The subject of the confirmation email
+$confirmationFromName       = "Millennium Glass"; // Used in the "from" field of the email.
 $userEmailField             = "email";
 $defaultUserName            = "User"; // Used if the form does not include a "name" field.
 
