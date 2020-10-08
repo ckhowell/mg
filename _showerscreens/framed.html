@@ -5,52 +5,56 @@ description: Gold Coast Supplier and installer of Framed, Frameless, Semi-Framel
 image_path: /img/showerscreens/framed/
 categories: showerscreens
 product: framed-showerscreens
-value-prop:  The choice for value. The framed showerscreens are proven to be long-lasting while being budget-friendly.
+value-prop: The choice for value. The framed showerscreens are proven to be long-lasting while being budget-friendly.
 brochure: /brochure/framed.pdf
+buybutton: https://www.goldcoastshowerscreens.online/
 ---
 
 <section class="height-70 bg--dark imagebg page-title project-single-title page-title--animate parallax" data-overlay="3">
   <div class="background-image-holder">
     {% for image in site.static_files %}
     {% if image.path contains 'img/showerscreens/framed/hero' %}
-        <img src="{{site.baseurl}}{{image.path}}">
+    <img src="{{site.baseurl}}{{image.path}}">
     {% endif %}
     {% endfor %}
   </div>
 
-    <div class="container pos-vertical-center">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <h1>{{ page.title }}</h1>
-                  <div class="col-sm-8 col-sm-offset-2 text-center">
-                  <p class="lead">
-                    {{page.value-prop}}
-                  </div>
-                  </p>
-            </div>
-        </div>
-        <!--end row-->
+  <div class="container pos-vertical-center">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h1>{{ page.title }}</h1>
+        <p class="lead">
+          {{page.value-prop}}
+        </p>
+        <a class="btn btn--lg btn--primary" href="{{page.buybutton}}" target="_blank">
+          <span class="btn__text">
+            Buy Online
+          </span>
+        </a>
+      </div>
     </div>
-    <!--end container-->
+    <!--end row-->
+  </div>
+  <!--end container-->
 </section>
 {% include features-quality.html %}
 {% include content.html %}
 
 <section class="project-single-stacked">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-              {% for image in site.static_files %}
-              {% if image.path contains 'img/showerscreens/framed' %}
-                  <img src="{{site.baseurl}}{{image.path}}">
-              {% endif %}
-              {% endfor %}
-            </div>
-        </div>
-        <!--end of row-->
-
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        {% for image in site.static_files %}
+        {% if image.path contains 'img/showerscreens/framed' %}
+        <img src="{{site.baseurl}}{{image.path}}">
+        {% endif %}
+        {% endfor %}
+      </div>
     </div>
-    <!--end of container-->
+    <!--end of row-->
+
+  </div>
+  <!--end of container-->
 </section>
 
 {% include brochure.html %}

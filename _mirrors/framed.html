@@ -5,32 +5,21 @@ description: Gold Coast Supplier and installer of Framed, Micro-edge, Oval and S
 image_path: /img/mirrors/framed/
 category: mirrors
 product: framed-mirrors
-value-prop:  A framed mirror will create a stylish look for any bathroom. We have a huge range of bathroom mirrors at great prices.
+value-prop: A framed mirror will create a stylish look for any bathroom. We have a huge range of bathroom mirrors at great prices.
+buybutton: https://www.goldcoastmirrors.online
 ---
 {% assign product = site.data.mirrors[page.product] %}
 
 <section class="height-70 bg--dark imagebg page-title project-single-title page-title--animate parallax" data-overlay="3">
     <div class="background-image-holder">
-      {% for image in site.static_files %}
-      {% if image.path contains 'img/mirrors/framed/hero' %}
-          <img src="{{site.baseurl}}{{image.path}}">
-      {% endif %}
-      {% endfor %}
+        {% for image in site.static_files %}
+        {% if image.path contains 'img/mirrors/framed/hero' %}
+        <img src="{{site.baseurl}}{{image.path}}">
+        {% endif %}
+        {% endfor %}
     </div>
 
-    <div class="container pos-vertical-center">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-              <h1>{{ page.title }}</h1>
-                  <div class="col-sm-8 col-sm-offset-2 text-center">
-                  <p class="lead">
-                    {{page.value-prop}}
-                  </div>
-                  </p>
-            </div>
-        </div>
-        <!--end row-->
-    </div>
+    {% include quote.html %}
     <!--end container-->
 </section>
 
@@ -41,11 +30,11 @@ value-prop:  A framed mirror will create a stylish look for any bathroom. We hav
     <div class="container">
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2">
-              {% for image in site.static_files %}
-              {% if image.path contains 'img/mirrors/framed' %}
-                  <img src="{{site.baseurl}}{{image.path}}">
-              {% endif %}
-              {% endfor %}
+                {% for image in site.static_files %}
+                {% if image.path contains 'img/mirrors/framed' %}
+                <img src="{{site.baseurl}}{{image.path}}">
+                {% endif %}
+                {% endfor %}
             </div>
         </div>
         <!--end of row-->

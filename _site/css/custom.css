@@ -24,8 +24,13 @@ Add your custom styles below
     min-height: 0em;
 }
 
-.pagination__prev, .pagination__next {
+.pagination__prev,
+.pagination__next {
     font-size: 1.5em !important;
+}
+
+.h1 {
+    font-size: 70px;
 }
 
 /* .owl-theme .owl-controls {

@@ -5,31 +5,20 @@ description: Gold Coast Supplier and installer of Framed, Frameless, Semi-Framel
 image_path: /img/showerscreens/panel/
 categories: showerscreens
 product: panel-showerscreens
-value-prop:  Affordable and functional — A Shower Screen Panel or Door are available in a range of customised sizes to compliment your bathroom.
+value-prop: Affordable and functional — A Shower Screen Panel or Door are available in a range of customised sizes to compliment your bathroom.
+buybutton: https://www.goldcoastshowerscreens.online/
 ---
 {% assign product = site.data.showerscreens[page.product] %}
 <section class="height-70 bg--dark imagebg page-title project-single-title page-title--animate parallax" data-overlay="3">
     <div class="background-image-holder">
-      {% for image in site.static_files %}
-      {% if image.path contains 'img/showerscreens/panel/hero' %}
-          <img src="{{site.baseurl}}{{image.path}}">
-      {% endif %}
-      {% endfor %}
+        {% for image in site.static_files %}
+        {% if image.path contains 'img/showerscreens/panel/hero' %}
+        <img src="{{site.baseurl}}{{image.path}}">
+        {% endif %}
+        {% endfor %}
     </div>
 
-    <div class="container pos-vertical-center">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-              <h1>{{ page.title }}</h1>
-                  <div class="col-sm-8 col-sm-offset-2 text-center">
-                  <p class="lead">
-                    {{page.value-prop}}
-                  </div>
-                  </p>
-            </div>
-        </div>
-        <!--end row-->
-    </div>
+    {% include quote.html %}
     <!--end container-->
 </section>
 {% include features-quality.html %}
@@ -39,11 +28,11 @@ value-prop:  Affordable and functional — A Shower Screen Panel or Door are ava
     <div class="container">
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2">
-              {% for image in site.static_files %}
-              {% if image.path contains 'img/showerscreens/panel' %}
-                  <img src="{{site.baseurl}}{{image.path}}">
-              {% endif %}
-              {% endfor %}
+                {% for image in site.static_files %}
+                {% if image.path contains 'img/showerscreens/panel' %}
+                <img src="{{site.baseurl}}{{image.path}}">
+                {% endif %}
+                {% endfor %}
             </div>
         </div>
         <!--end of row-->
