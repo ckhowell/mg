@@ -36,4 +36,4 @@ fields:
       format: markdown
   label: Text area
 pages:
-- "./_posts/test-post.md"
+- "./_posts/2020-10-10-test-post.md"
