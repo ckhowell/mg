@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Caring for your shower screen 
+title: Caring for your shower screen
+intro: Our 6 easy tips and tricks for pro-longing and maintaining your shower screen.
 blockquote: By following this information, you will pro-long and maintain your shower screens life span.
 image: /img/showerscreens/panel/hero/panel-hero.jpg 
 ---

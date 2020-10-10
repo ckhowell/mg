@@ -7,7 +7,7 @@
           <div>
             {% for post in paginator.posts %}
             <article class="masonry-blog-list article">
-            <div class="article__title text-center">
+              <div class="article__title text-center">
                 <a href="{{ post.url }}">
                   <h2>{{ post.title }}</h2>
                 </a>
@@ -19,7 +19,7 @@
                   <img alt="Image" src="{{site.baseurl}}{{post.image}}">
                 </a>
                 <p>
-                  {{ post.content | strip_html | truncatewords: 50 }}
+                  {{ post.intro | strip_html | truncatewords: 50 }}
                 </p>
                 <a href="{{ post.url }}">Continue reading »</a>
               </div>
