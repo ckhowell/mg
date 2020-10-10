@@ -42,5 +42,3 @@ fields:
     schema:
       format: markdown
   label: Text area
-pages:
-- "./_posts/2020-10-10-test-post.md"
