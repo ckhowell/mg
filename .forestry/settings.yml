@@ -1,0 +1,62 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: ''
+webhook_url: 
+sections:
+- type: jekyll-pages
+  label: Pages
+  create: all
+- type: jekyll-posts
+  label: Posts
+  create: all
+- type: directory
+  path: "./_splashbacks"
+  label: Splashbacks
+  create: all
+  match: "**/*"
+- type: directory
+  path: "./_showerscreens"
+  label: Showerscreens
+  create: all
+  match: "**/*"
+- type: directory
+  path: "./_mirrors"
+  label: Mirrors
+  create: all
+  match: "**/*"
+- type: directory
+  path: "./_wardrobe-doors"
+  label: Wardrobe doors
+  create: all
+  match: "**/*"
+- type: directory
+  path: "./_glass-fencing"
+  label: Glass fencing
+  create: all
+  match: "**/*"
+- type: directory
+  path: "./_aluminium-fencing"
+  label: Aluminium fencing
+  create: all
+  match: "**/*"
+- type: directory
+  path: "./_accessories"
+  label: Accessories
+  create: all
+  match: "**/*"
+upload_dir: uploads
+public_path: "/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  preview_env:
+  - JEKYLL_ENV=staging
+  preview_output_directory: _site
+  install_dependencies_command: bundle install --path vendor/bundle
+  preview_docker_image: forestryio/ruby:2.6
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
+    -d _site
