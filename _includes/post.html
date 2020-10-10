@@ -5,11 +5,12 @@
                 <article>
                     <div class="article__title text-center">
                         <h2>{{page.title}}</h2>
-                                            <span>{{ page.date | date_to_string }}</span>
+                        <span>{{ page.date | date_to_string }}</span>
 
-                    </div><blockquote class="text-center">{{page.blockquote}}</blockquote>
+                    </div>
+                    <blockquote class="text-center">{{page.blockquote}}</blockquote>
                     <img alt="{{page.title}}" src="{{site.baseurl}}{{page.image}}">
-                    
+
                     <div class="article__body">
                         {{ content }}
                     </div>
