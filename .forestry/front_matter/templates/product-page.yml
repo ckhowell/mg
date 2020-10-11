@@ -26,3 +26,5 @@ fields:
 - type: text
   name: buybutton
   label: buybutton
+pages:
+- "./_showerscreens/_showerscreens/test-title.md"
