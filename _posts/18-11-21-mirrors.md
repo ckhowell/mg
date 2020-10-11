@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What Mirror Product is best for you?
+intro: How to choose a bathroom mirror. There are alot of options to choose from and picking the right mirror can have a huge impression on how you bathroom will look. 
 blockquote: The three most important things to think about when choosing the perfect mirror for you is Design, Quality and Fit.
 image: /img/mirrors/beveled/hero/beveled-mirror.jpg
 ---

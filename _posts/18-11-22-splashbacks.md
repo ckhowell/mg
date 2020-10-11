@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How do I know what splashback is right for me? 
+intro: Our splashbacks have a large variety of design options to choose from and our team can assist you in choosing the right colour, features and size of your splashback.
 blockquote: The three most important things to think about when choosing the right splashback for you are Design, Quality and Fit .
 image: /img/splashbacks/standard/millenniumglass-splashbacks.jpg
 ---

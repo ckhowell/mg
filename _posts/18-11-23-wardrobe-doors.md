@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What Wardrobe Door is best for you? 
+intro: Lots of options to choose from, let us guide you on our range of Softline, Slimline, Mirrorline and other options.
 blockquote: The three most important things to think about when choosing your Sliding Wardrobe Doors are Design, Quality and Fit
 image: /img/wardrobe-doors/mirrorline/hero/mirrorline-wardrobe-doors-gold-coast-4.jpg
 ---

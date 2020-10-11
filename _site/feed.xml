@@ -3,11 +3,35 @@
   <channel>
     <title>Millennium Glass</title>
     <description>Gold Coast Supplier and installer of Showerscreens, Mirrors, Splashbacks, Wardrobe Doors, Shelving, Pool fencing and Glass Balustrade.</description>
-    <link>http://millenniumglass.com.au//</link>
-    <atom:link href="http://millenniumglass.com.au//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Oct 2020 15:26:34 +1000</pubDate>
-    <lastBuildDate>Sat, 10 Oct 2020 15:26:34 +1000</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 10 Oct 2020 16:39:27 +1000</pubDate>
+    <lastBuildDate>Sat, 10 Oct 2020 16:39:27 +1000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Test Post</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;A block quote or pull out quote&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/ef34a25b-d4bc-4954-82b5-3b3187f8de6e.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lists&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1&lt;/li&gt;
+  &lt;li&gt;2&lt;/li&gt;
+  &lt;li&gt;3&lt;/li&gt;
+  &lt;li&gt;4&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 10 Oct 2020 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2020/10/10/test-post/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/10/10/test-post/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Caring for your shower screen</title>
@@ -26,8 +50,8 @@
 
 </description>
         <pubDate>Sun, 25 Nov 2018 00:00:00 +1000</pubDate>
-        <link>http://millenniumglass.com.au//2018/11/25/caring-for-screens/</link>
-        <guid isPermaLink="true">http://millenniumglass.com.au//2018/11/25/caring-for-screens/</guid>
+        <link>http://localhost:4000/2018/11/25/caring-for-screens/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/11/25/caring-for-screens/</guid>
         
         
       </item>
@@ -41,8 +65,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Sat, 24 Nov 2018 00:00:00 +1000</pubDate>
-        <link>http://millenniumglass.com.au//2018/11/24/protecting-your-screens/</link>
-        <guid isPermaLink="true">http://millenniumglass.com.au//2018/11/24/protecting-your-screens/</guid>
+        <link>http://localhost:4000/2018/11/24/protecting-your-screens/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/11/24/protecting-your-screens/</guid>
         
         
       </item>
@@ -83,8 +107,8 @@
 
 </description>
         <pubDate>Fri, 23 Nov 2018 00:00:00 +1000</pubDate>
-        <link>http://millenniumglass.com.au//2018/11/23/wardrobe-doors/</link>
-        <guid isPermaLink="true">http://millenniumglass.com.au//2018/11/23/wardrobe-doors/</guid>
+        <link>http://localhost:4000/2018/11/23/wardrobe-doors/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/11/23/wardrobe-doors/</guid>
         
         
       </item>
@@ -115,8 +139,8 @@
 
 </description>
         <pubDate>Thu, 22 Nov 2018 00:00:00 +1000</pubDate>
-        <link>http://millenniumglass.com.au//2018/11/22/splashbacks/</link>
-        <guid isPermaLink="true">http://millenniumglass.com.au//2018/11/22/splashbacks/</guid>
+        <link>http://localhost:4000/2018/11/22/splashbacks/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/11/22/splashbacks/</guid>
         
         
       </item>
@@ -142,8 +166,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Wed, 21 Nov 2018 00:00:00 +1000</pubDate>
-        <link>http://millenniumglass.com.au//2018/11/21/mirrors/</link>
-        <guid isPermaLink="true">http://millenniumglass.com.au//2018/11/21/mirrors/</guid>
+        <link>http://localhost:4000/2018/11/21/mirrors/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/11/21/mirrors/</guid>
         
         
       </item>
@@ -169,8 +193,8 @@
 &lt;p&gt;Our glass is not imported and is sourced from our suppliers in Brisbane.&lt;/p&gt;
 </description>
         <pubDate>Tue, 20 Nov 2018 00:00:00 +1000</pubDate>
-        <link>http://millenniumglass.com.au//2018/11/20/shower-screen-tips/</link>
-        <guid isPermaLink="true">http://millenniumglass.com.au//2018/11/20/shower-screen-tips/</guid>
+        <link>http://localhost:4000/2018/11/20/shower-screen-tips/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/11/20/shower-screen-tips/</guid>
         
         
       </item>
@@ -181,8 +205,8 @@
 
 </description>
         <pubDate>Sun, 25 Jun 2017 04:28:18 +1000</pubDate>
-        <link>http://millenniumglass.com.au//2017/06/25/test-title/</link>
-        <guid isPermaLink="true">http://millenniumglass.com.au//2017/06/25/test-title/</guid>
+        <link>http://localhost:4000/2017/06/25/test-title/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/06/25/test-title/</guid>
         
         
       </item>

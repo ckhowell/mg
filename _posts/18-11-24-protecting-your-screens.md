@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Make cleaning your glass a breeze
+intro: Hate cleaning your showerscreen? With a glass corrosion coating and protection system, a shower screen will require up to 90% less cleaning!
 blockquote: Glass corrosion coating and protection stops corrosion by repelling water, dirt, oil, soaps and shampoo residues
 image: /img/glass-coating.jpg
 ---

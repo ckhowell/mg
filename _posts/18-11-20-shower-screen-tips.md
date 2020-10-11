@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What Shower Screen is best for you
+intro: Our team are experts and can advise you in choosing the right fit for you and your bathroom. The three most important things to think about when choosing your Shower Screen is Design, Quality and Fit.
 blockquote: The three most important things to think about when choosing your Shower Screen is Design, Quality and Fit
 image: /img/showerscreens/product.jpg
 ---
