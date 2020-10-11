@@ -28,3 +28,4 @@ fields:
   label: buybutton
 pages:
 - "./_showerscreens/_showerscreens/test-title.md"
+- "./title-goes-here.md"
