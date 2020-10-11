@@ -1,3 +1,5 @@
 .sass-cache
 .jekyll-metadata
-._production
+.vscode
+_production/*
+node_modules
