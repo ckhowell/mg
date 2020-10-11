@@ -2,52 +2,43 @@
 label: Blog post
 hide_body: false
 fields:
-  - name: layout
-    type: text
-    config:
-      required: false
-    label: layout
-    default: post
-    hidden: true
-  - name: title
-    type: text
-    config:
-      required: true
-    label: Title
-  - name: date
-    type: datetime
-    label: date
-    description: ""
-    config:
-      required: false
-      date_format:
-      time_format:
-      display_utc: false
-  - name: image
-    type: file
-    config:
-      maxSize: 64
-    label: Image
-  - name: intro
-    type: text
-    config:
-      required: false
-    label: Intro
-  - name: text_area
-    type: textarea
-    default: ""
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Text area
-pages:
-  - "./_posts/18-11-20-shower-screen-tips.md"
-  - "./_posts/18-11-21-mirrors.md"
-  - "./_posts/18-11-22-splashbacks.md"
-  - "./_posts/18-11-23-wardrobe-doors.md"
-  - "./_posts/18-11-24-protecting-your-screens.md"
-  - "./_posts/18-11-25-caring-for-screens.md"
-  - "./_posts/2020-10-10-test-post.md"
-  - "./_posts/2020-10-10-title.md"
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  default: post
+  hidden: true
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+- name: intro
+  type: text
+  config:
+    required: false
+  label: Intro
+- name: text_area
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text area

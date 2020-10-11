@@ -1,0 +1,28 @@
+---
+label: Product Page
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: text
+  name: image_path
+  label: image_path
+- type: text
+  name: categories
+  label: categories
+- type: text
+  name: product
+  label: product
+- type: textarea
+  name: value-prop
+  label: value-prop
+- type: text
+  name: buybutton
+  label: buybutton
