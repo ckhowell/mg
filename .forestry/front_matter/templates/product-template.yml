@@ -1,0 +1,22 @@
+---
+label: Product Template
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: image
+  label: image
+- type: text
+  name: intro
+  label: intro
+- type: text
+  name: text_area
+  label: text_area
