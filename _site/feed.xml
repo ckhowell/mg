@@ -5,9 +5,22 @@
     <description>Gold Coast Supplier and installer of Showerscreens, Mirrors, Splashbacks, Wardrobe Doors, Shelving, Pool fencing and Glass Balustrade.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Oct 2020 16:39:27 +1000</pubDate>
-    <lastBuildDate>Sat, 10 Oct 2020 16:39:27 +1000</lastBuildDate>
+    <pubDate>Mon, 12 Oct 2020 12:29:56 +1000</pubDate>
+    <lastBuildDate>Mon, 12 Oct 2020 12:29:56 +1000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Title</title>
+        <description>&lt;p&gt;Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32.&lt;/p&gt;
+
+&lt;p&gt;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum” by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Oct 2020 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2020/10/10/title/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/10/10/title/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Test Post</title>
@@ -195,18 +208,6 @@
         <pubDate>Tue, 20 Nov 2018 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2018/11/20/shower-screen-tips/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/11/20/shower-screen-tips/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Test Title</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/uploads/2017/06/24/12520717.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 25 Jun 2017 04:28:18 +1000</pubDate>
-        <link>http://localhost:4000/2017/06/25/test-title/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/06/25/test-title/</guid>
         
         
       </item>
