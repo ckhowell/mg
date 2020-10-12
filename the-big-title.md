@@ -17,3 +17,4 @@ gallery:
 - "/uploads/ef34a25b-d4bc-4954-82b5-3b3187f8de6e.jpg"
 
 ---
+![](/uploads/c2845278-8bae-4bc7-87ba-bd620126405c.jpg)

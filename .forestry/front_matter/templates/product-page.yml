@@ -61,6 +61,3 @@ fields:
   type: image_gallery
   config: {}
   label: gallery
-pages:
-- "./test-title.md"
-- "./the-big-title.md"
