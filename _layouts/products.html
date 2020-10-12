@@ -8,14 +8,9 @@
   {% include gtm.html %}
   {% include nav.html %}
 
-  <section class="height-70 bg--dark imagebg page-title project-single-title page-title--animate parallax"
-    data-overlay="3">
+  <section class="height-70 bg--dark imagebg page-title project-single-title page-title--animate parallax" data-overlay="3">
     <div class="background-image-holder">
-      {% for image in site.static_files %}
-      {% if image.path contains 'img/showerscreens/framed/hero' %}
-      <img src="{{site.baseurl}}{{image.path}}">
-      {% endif %}
-      {% endfor %}
+      <img src="{{page.image_path}}">
     </div>
 
     <div class="container pos-vertical-center">
@@ -44,7 +39,7 @@
       <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
           {% for image in site.static_files %}
-          {% if image.path contains 'img/showerscreens/framed' %}
+          {% if image.path contains '/uploads/' %}
           <img src="{{site.baseurl}}{{image.path}}">
           {% endif %}
           {% endfor %}
