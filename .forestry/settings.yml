@@ -13,8 +13,10 @@ sections:
 - type: directory
   path: "./_splashbacks"
   label: Splashbacks
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - product-page
 - type: directory
   path: "./_showerscreens"
   label: Showerscreens
