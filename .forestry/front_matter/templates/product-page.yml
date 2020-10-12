@@ -5,20 +5,51 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: default-layout
+  config:
+    required: true
+  hidden: true
 - type: text
   name: title
   label: title
 - type: text
   name: description
   label: description
-- type: text
-  name: image_path
+- name: image_path
+  type: file
+  config:
+    maxSize: 64
   label: image_path
-- type: text
-  name: categories
-  label: categories
-- type: text
-  name: product
+  description: Feature image
+- name: category
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - showerscreens
+    - mirrors
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: category
+- name: product
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - frameless-showerscreens
+    - framed-showerscreens
+    - panel-showerscreens
+    - semi-frameless-showerscreens
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
   label: product
 - type: textarea
   name: value-prop
@@ -26,3 +57,7 @@ fields:
 - type: text
   name: buybutton
   label: buybutton
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: gallery
