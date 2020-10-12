@@ -63,3 +63,4 @@ fields:
   label: gallery
 pages:
 - "./test-title.md"
+- "./the-big-title.md"
