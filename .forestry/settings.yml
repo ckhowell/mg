@@ -15,7 +15,7 @@ sections:
   label: Pages
   create: all
 - type: directory
-  path: "./_splashbacks"
+  path: _splashbacks
   label: Splashbacks
   create: documents
   match: "**/*"
@@ -27,27 +27,27 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: "./_mirrors"
+  path: _mirrors
   label: Mirrors
   create: all
   match: "**/*"
 - type: directory
-  path: "./_wardrobe-doors"
+  path: _wardrobe-doors
   label: Wardrobe doors
   create: all
   match: "**/*"
 - type: directory
-  path: "./_glass-fencing"
+  path: _glass-fencing
   label: Glass fencing
   create: all
   match: "**/*"
 - type: directory
-  path: "./_aluminium-fencing"
+  path: _aluminium-fencing
   label: Aluminium fencing
   create: all
   match: "**/*"
 - type: directory
-  path: "./_accessories"
+  path: _accessories
   label: Accessories
   create: all
   match: "**/*"
