@@ -15,7 +15,7 @@ sections:
   label: Pages
   create: all
 - type: directory
-  path: _splashbacks
+  path: __splashbacks
   label: Splashbacks
   create: documents
   match: "**/*"
