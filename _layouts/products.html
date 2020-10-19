@@ -38,8 +38,8 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
-          {% for image in site.static_files %}
-          <img src="{{site.baseurl}}{{image.path}}">
+          {% for item in page.images %}
+          <img src="{{site.baseurl}}{{item}}">
           {% endfor %}
         </div>
       </div>
