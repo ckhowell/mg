@@ -10,7 +10,7 @@
 
   <section class="height-70 bg--dark imagebg page-title project-single-title page-title--animate parallax" data-overlay="3">
     <div class="background-image-holder">
-      <img src="{{page.image_path}}">
+      <img src="{{page.hero_image}}">
     </div>
 
     <div class="container pos-vertical-center">
@@ -39,9 +39,7 @@
       <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
           {% for image in site.static_files %}
-          {% if image.path contains '/uploads/' %}
           <img src="{{site.baseurl}}{{image.path}}">
-          {% endif %}
           {% endfor %}
         </div>
       </div>
