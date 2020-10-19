@@ -66,9 +66,9 @@ fields:
     field: do_you_need_a_buy_button
     value: true
   description: Enter the URL of the online store
-- name: gallery
+- name: images
   type: image_gallery
   config: {}
-  label: gallery
+  label: Image Gallery
 pages:
 - _showerscreens/test-two-created-in-forestry.md
