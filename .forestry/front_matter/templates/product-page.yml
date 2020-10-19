@@ -99,3 +99,16 @@ fields:
     required: false
   label: Introduction
   description: Introduction text
+- name: include_brochure
+  type: boolean
+  label: Brochure
+  description: Include a brochure on the page
+- name: brochure
+  type: file
+  config:
+    maxSize: 64
+  label: Brochure
+  description: Upload PDF of brochure
+  showOnly:
+    field: include_brochure
+    value: true
