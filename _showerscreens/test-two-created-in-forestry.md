@@ -12,6 +12,5 @@ gallery:
 - "/img/wardrobe-shelving/shelvinggoldcoast7.jpg"
 - "/img/wardrobe-shelving/shelvinggoldcoast8.jpg"
 - "/img/wardrobe-shelving/shelvinggoldcoast9.jpg"
-published: false
 
 ---
