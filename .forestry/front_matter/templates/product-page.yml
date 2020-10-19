@@ -70,5 +70,3 @@ fields:
   type: image_gallery
   config: {}
   label: Image Gallery
-pages:
-- _showerscreens/test-two-created-in-forestry.md
