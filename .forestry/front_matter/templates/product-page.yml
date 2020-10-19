@@ -65,6 +65,7 @@ fields:
   showOnly:
     field: do_you_need_a_buy_button
     value: true
+  description: Enter the URL of the online store
 - name: gallery
   type: image_gallery
   config: {}

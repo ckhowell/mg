@@ -6,11 +6,12 @@ description: description is here
 image_path: "/img/wardrobe-doors/woodgrain/hero/woodgrain-wardrobe-sliding-door-gold-coast.jpg"
 category: mirrors
 value-prop: value proposition
-buybutton: ''
+buybutton: https://www.goldcoastshowerscreens.online/
 gallery:
 - "/img/wardrobe-doors/slimline/softline-wardrobe-doors-gold-coast-2.jpg"
 - "/img/wardrobe-shelving/shelvinggoldcoast7.jpg"
 - "/img/wardrobe-shelving/shelvinggoldcoast8.jpg"
 - "/img/wardrobe-shelving/shelvinggoldcoast9.jpg"
+do_you_need_a_buy_button: true
 
 ---
