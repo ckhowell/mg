@@ -20,11 +20,13 @@
           <p class="lead">
             {{page.value-prop}}
           </p>
+          {% if page.do_you_need_a_buy_button == true %}
           <a class="btn btn--lg btn--primary" href="{{page.buybutton}}" target="_blank">
             <span class="btn__text">
               Buy Online
             </span>
           </a>
+          {% endif %}
         </div>
       </div>
       <!--end row-->
