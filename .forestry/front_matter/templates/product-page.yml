@@ -15,12 +15,12 @@ fields:
 - type: text
   name: description
   label: description
-- name: image_path
+- name: hero_image
   type: file
   config:
     maxSize: 64
-  label: image_path
-  description: Feature image
+  label: Hero Image
+  description: The main image feature image
 - name: category
   type: select
   default: ''
