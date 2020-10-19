@@ -93,5 +93,11 @@ fields:
   config:
     required: false
   label: test
+- name: intro
+  type: text
+  config:
+    required: false
+  label: Introduction
+  description: Introduction text
 pages:
 - _showerscreens/tits.md
