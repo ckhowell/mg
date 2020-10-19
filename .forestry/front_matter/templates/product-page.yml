@@ -66,6 +66,24 @@ fields:
     field: do_you_need_a_buy_button
     value: true
   description: Enter the URL of the online store
+- name: process
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Process
+- name: quality
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Quality
 - name: images
   type: image_gallery
   config: {}
