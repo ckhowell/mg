@@ -54,9 +54,17 @@ fields:
 - type: textarea
   name: value-prop
   label: value-prop
+- name: do_you_need_a_buy_button
+  type: boolean
+  label: Do you need a buy button
+  description: Click to add a buy button in the hero image
+  default: false
 - type: text
   name: buybutton
   label: buybutton
+  showOnly:
+    field: do_you_need_a_buy_button
+    value: true
 - name: gallery
   type: image_gallery
   config: {}
