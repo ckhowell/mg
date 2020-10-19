@@ -99,5 +99,3 @@ fields:
     required: false
   label: Introduction
   description: Introduction text
-pages:
-- _showerscreens/tits.md
