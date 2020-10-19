@@ -3,7 +3,7 @@ layout: products
 product: framed-showerscreens
 title: tits
 description: tirs
-hero_image: "/img/wardrobe-shelving/wardrobe-shelving-gold-coast.jpg"
+hero_image: "/img/wardrobe-doors/woodgrain/woodgrain-wardrobe-sliding-door-gold-coast-02.jpg"
 category: showerscreens
 value-prop: value
 do_you_need_a_buy_button: false
