@@ -88,11 +88,6 @@ fields:
   type: image_gallery
   config: {}
   label: Image Gallery
-- name: test
-  type: text
-  config:
-    required: false
-  label: test
 - name: intro
   type: text
   config:
