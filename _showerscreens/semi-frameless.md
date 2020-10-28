@@ -1,7 +1,7 @@
 ---
 layout: products
 product: semi-frameless-showerscreens
-title: Semi-Frameless Showerscreens
+title: Semi-Frameless Showerscreen
 description: Gold Coast Supplier and installer of Framed, Frameless, Semi-Frameless
   and Panel only Showerscreens.
 hero_image: "/img/showerscreens/semi-frameless/hero/semi-frameless-hero.jpg"
