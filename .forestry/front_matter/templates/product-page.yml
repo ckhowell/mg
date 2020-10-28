@@ -108,4 +108,5 @@ fields:
     field: include_brochure
     value: true
 pages:
+- _showerscreens/panel.html
 - _showerscreens/semi-frameless.md
