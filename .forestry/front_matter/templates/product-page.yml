@@ -87,7 +87,7 @@ fields:
 - name: images
   type: image_gallery
   config: {}
-  label: Image Gallery
+  label: Images
 - name: intro
   type: text
   config:
