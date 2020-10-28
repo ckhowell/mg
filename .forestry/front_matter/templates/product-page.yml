@@ -125,6 +125,10 @@ fields:
     field: include_brochure
     value: true
 pages:
+- _glass-fencing/frameless.html
+- _glass-fencing/glass-balustrading.html
+- _glass-fencing/glass-stair-balustrading.html
+- _glass-fencing/semi-frameless.html
 - _mirrors/beveled.html
 - _mirrors/framed.html
 - _mirrors/frameless.html
