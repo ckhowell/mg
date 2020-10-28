@@ -45,6 +45,21 @@ fields:
     - framed-showerscreens
     - panel-showerscreens
     - semi-frameless-showerscreens
+    - beveled-mirrors
+    - framed-mirrors
+    - frameless-mirrors
+    - micro-edge-mirrors
+    - oval-mirrors
+    - Frameless Glass Pool Fencing
+    - glass-balustrading
+    - Semi-Frameless Glass Pool Fencing
+    - colour-back
+    - mirrorline
+    - premium-vinyl-colour
+    - slimline
+    - shoji
+    - vinyl-colour
+    - woodgrain
     source:
       type: simple
       section: 
