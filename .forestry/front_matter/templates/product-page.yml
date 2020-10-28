@@ -7,7 +7,7 @@ fields:
   label: layout
   default: products
   config:
-    required: true
+    required: false
   hidden: true
 - type: text
   name: title
