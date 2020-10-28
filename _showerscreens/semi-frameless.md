@@ -24,7 +24,6 @@ images:
 - "/img/showerscreens/semi-frameless/SEMI SS SYMCORP JOB.jpg"
 - "/img/showerscreens/semi-frameless/SEMI 4 SYM.jpg"
 - "/img/showerscreens/semi-frameless/black-goldcoastblacksemiframeless.jpg"
-test: test
 intro: We focus on the foremost quality in the products and services we offer.
 include_brochure: false
 brochure: ''
