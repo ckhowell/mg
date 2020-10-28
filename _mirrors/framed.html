@@ -1,43 +1,21 @@
 ---
-layout: default-layout
+layout: products
 title: Framed Mirrors
 description: Gold Coast Supplier and installer of Framed, Micro-edge, Oval and Semi-Framed Mirrors.
-image_path: /img/mirrors/framed/
+hero_image: "/img/mirrors/framed/hero/mirrors-framed-gold-coast-hero.jpg"
 category: mirrors
 product: framed-mirrors
 value-prop: A framed mirror will create a stylish look for any bathroom. We have a huge range of bathroom mirrors at great prices.
+do_you_need_a_buy_button: true
 buybutton: https://www.goldcoastmirrors.online
+intro: Framed Mirrors can enhance your decor. We have a large range of sizes and shapes to make your room more stylish and spacious.
+process: Free measure and quote to a blank canvas or existing bathroom. Measuring to the exact millimeter, a screen to suit your taste and budget. Repair or replace an outdated existing mirror or frame mirror to modernise.
+quality: Our Mirrors are A Grade Quality silver float glass. Thickness from either 4mm and 6mm. All quality checked, glass is free from waves and imperfections. Larger mirrors will be 6mm, thicker glass which helps make them more rigid and reduces the possibility of breaking. We use an edge sealant, a specially formulated clear coating to reduce silver deterioration.
+images:
+- "/img/mirrors/framed/2de8d10d13502cae19ebf95fb1f062a9.jpg"
+- "/img/mirrors/framed/317cb6508a38247a9eb0603e14d02c4a.jpg"
+- "/img/mirrors/framed/DIY-Bathroom-Vanity-Mirror.jpg"
+- "/img/mirrors/framed/fac736f1ea8fbe9ac5043bfeca610079.jpg"
+include_brochure: false
+brochure:
 ---
-{% assign product = site.data.mirrors[page.product] %}
-
-<section class="height-70 bg--dark imagebg page-title project-single-title page-title--animate parallax" data-overlay="3">
-    <div class="background-image-holder">
-        {% for image in site.static_files %}
-        {% if image.path contains 'img/mirrors/framed/hero' %}
-        <img src="{{site.baseurl}}{{image.path}}">
-        {% endif %}
-        {% endfor %}
-    </div>
-
-    {% include quote.html %}
-    <!--end container-->
-</section>
-
-{% include content-mirrors.html %}
-
-
-<section class="project-single-stacked">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-                {% for image in site.static_files %}
-                {% if image.path contains 'img/mirrors/framed' %}
-                <img src="{{site.baseurl}}{{image.path}}">
-                {% endif %}
-                {% endfor %}
-            </div>
-        </div>
-        <!--end of row-->
-    </div>
-    <!--end of container-->
-</section>

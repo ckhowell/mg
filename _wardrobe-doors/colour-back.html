@@ -1,44 +1,18 @@
 ---
-layout: default-layout
+layout: products
 title: Colour-Back Wardrobe Doors
 description: Gold Coast Supplier and installer of Wardrobe doors.
-permalink: /products/wardrobe-doors/colour-back/
-image_path: /img/wardrobe-doors/colour-back/
+hero_image: "/img/wardrobe-doors/colour-back/colourback-glass-swd.jpg"
 category: wardrobe-doors
 product: colour-back
 value-prop: A superb range of Colour-Back glass allows for a multitude of options. All our glass is safety backed 4mm glass.
-buybutton: https://www.goldcoastwardrobedoors.online/
+do_you_need_a_buy_button: true
+buybutton: https://www.goldcoastwardrobedoors.online
+intro: Australian Made — high quality. All our robe doors are safety backed 4mm glass and made to measure.
+process: Free measure and quote to a blank canvas or existing bathroom. Measuring to the exact millimeter, a screen to suit your taste and budget. Repair or replace an outdated existing mirror or frame mirror to modernise.
+quality: Our Mirrors are A Grade Quality silver float glass. Thickness from either 4mm and 6mm. All quality checked, glass is free from waves and imperfections. Larger mirrors will be 6mm, thicker glass which helps make them more rigid and reduces the possibility of breaking. We use an edge sealant, a specially formulated clear coating to reduce silver deterioration.
+images:
+- "/img/wardrobe-doors/colour-back/colourback-glass-swd.jpg"
+include_brochure: false
+brochure:
 ---
-{% assign product = site.data.wardrobe-doors[page.product] %}
-
-<section class="height-70 bg--dark imagebg page-title project-single-title page-title--animate parallax" data-overlay="3">
-    <div class="background-image-holder">
-        {% for image in site.static_files %}
-        {% if image.path contains 'img/wardrobe-doors/colour-back/' %}
-        <img src="{{site.baseurl}}{{image.path}}">
-        {% endif %}
-        {% endfor %}
-    </div>
-
-    {% include quote.html %}
-    <!--end container-->
-</section>
-
-{% include content.html %}
-
-
-<section class="project-single-stacked">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-                {% for image in site.static_files %}
-                {% if image.path contains 'img/wardrobe-doors/colour-back/' %}
-                <img src="{{site.baseurl}}{{image.path}}">
-                {% endif %}
-                {% endfor %}
-            </div>
-        </div>
-        <!--end of row-->
-    </div>
-    <!--end of container-->
-</section>

@@ -1,55 +1,18 @@
 ---
-layout: fencing-layout
+layout: products
 title: Stair Glass Balustrading
 description: Gold Coast Supplier and installer of Glass Balustrading for Stairs.
-image_path: /img/glass-fencing-and-balustrade/glass-stair-balustrading/
+hero_image: "/img/glass-fencing-and-balustrade/glass-stair-balustrading/glass-stairs/hero/glass-balustrade-gold-coast.jpg"
 category: glass-fencing
 product: glass-balustrading
-value-prop:  Glass balustrade for indoor stairs. Unobstructed glass means minimal interruptions providing a modern clean look.
-
+value-prop: Glass balustrade for indoor stairs. Unobstructed glass means minimal interruptions providing a modern clean look.
+do_you_need_a_buy_button: false
+buybutton:
+intro: Glass Pool Fencing & Balustrade Gold Coast, Brisbane and Byron Bay.
+process: Free measure and quote to a blank canvas or existing pool. We start be measuring to the exact millimeter and we can suit your taste and your budget.
+quality: We use the best and not cheap inferior imported products. Glass — We use toughened monolithic glass, manufactured in factory. Using this glass prevents de-lamination, it's also longer lasting and easier to clean. Frames — We use only quality Dias Extrusions. Dias are Australian made and have established a reputation for quality and design.
+images:
+- "/img/glass-fencing-and-balustrade/glass-stair-balustrading/glass-stairs/glass-stairs-03.jpg"
+include_brochure: false
+brochure:
 ---
-{% assign product = site.data.glass-fencing[page.product] %}
-
-<section class="height-70 bg--dark imagebg page-title project-single-title page-title--animate parallax" data-overlay="3">
-    <div class="background-image-holder">
-      {% for image in site.static_files %}
-      {% if image.path contains 'img/glass-fencing-and-balustrade/glass-stair-balustrading/glass-stairs/hero/' %}
-          <img src="{{site.baseurl}}{{image.path}}">
-      {% endif %}
-      {% endfor %}
-    </div>
-
-    <div class="container pos-vertical-center">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-              <h1>{{ page.title }}</h1>
-                  <div class="col-sm-8 col-sm-offset-2 text-center">
-                  <p class="lead">
-                    {{page.value-prop}}
-                  </div>
-                  </p>
-            </div>
-        </div>
-        <!--end row-->
-    </div>
-    <!--end container-->
-</section>
-{% include features-quality.html %}
-{% include content.html %}
-
-
-<section class="project-single-stacked">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-              {% for image in site.static_files %}
-              {% if image.path contains 'img/glass-fencing-and-balustrade/glass-stair-balustrading/' %}
-                  <img src="{{site.baseurl}}{{image.path}}">
-              {% endif %}
-              {% endfor %}
-            </div>
-        </div>
-        <!--end of row-->
-    </div>
-    <!--end of container-->
-</section>

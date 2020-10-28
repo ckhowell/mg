@@ -1,43 +1,24 @@
 ---
-layout: default-layout
+layout: products
 title: Oval Mirrors
 description: Gold Coast Supplier and installer of Beveled, Framed, Micro-edge, Oval and Semi-Framed Mirrors.
-image_path: /img/mirrors/beveled/
+hero_image: "/img/mirrors/oval/hero/mirror-oval.jpg"
 category: mirrors
 product: oval-mirrors
 value-prop: Oval glass mirrors provide a classic look that is timeless. The beauty is that it pairs with any fixture in any finish.
+do_you_need_a_buy_button: true
 buybutton: https://www.goldcoastmirrors.online
+intro:
+process: Free measure and quote to a blank canvas or existing bathroom. Measuring to the exact millimeter, a screen to suit your taste and budget. Repair or replace an outdated existing mirror or frame mirror to modernise.
+quality: Our Mirrors are A Grade Quality silver float glass. Thickness from either 4mm and 6mm. All quality checked, glass is free from waves and imperfections. Larger mirrors will be 6mm, thicker glass which helps make them more rigid and reduces the possibility of breaking. We use an edge sealant, a specially formulated clear coating to reduce silver deterioration.
+images:
+- "/img/mirrors/oval/Mirror_gold_coast.jpg"
+- "/img/mirrors/oval/ovalmirrorgoldcoast.jpg"
+- "/img/mirrors/oval/ovalmirrorgoldcoast1.jpg"
+- "/img/mirrors/oval/ovalmirrorgoldcoast2.jpg"
+- "/img/mirrors/oval/ovalmirrorgoldcoast3.jpg"
+- "/img/mirrors/oval/ovalmirrorgoldcoast5.jpg"
+- "/img/mirrors/oval/ovalmirrorgoldcoast8.jpg"
+include_brochure: false
+brochure:
 ---
-{% assign product = site.data.mirrors[page.product] %}
-
-<section class="height-70 bg--dark imagebg page-title project-single-title page-title--animate parallax" data-overlay="3">
-    <div class="background-image-holder">
-        {% for image in site.static_files %}
-        {% if image.path contains '/img/mirrors/oval/hero' %}
-        <img src="{{site.baseurl}}{{image.path}}">
-        {% endif %}
-        {% endfor %}
-    </div>
-
-    {% include quote.html %}
-    <!--end container-->
-</section>
-
-{% include content-mirrors.html %}
-
-
-<section class="project-single-stacked">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-                {% for image in site.static_files %}
-                {% if image.path contains '/img/mirrors/oval' %}
-                <img src="{{site.baseurl}}{{image.path}}">
-                {% endif %}
-                {% endfor %}
-            </div>
-        </div>
-        <!--end of row-->
-    </div>
-    <!--end of container-->
-</section>

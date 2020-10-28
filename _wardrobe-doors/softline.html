@@ -1,46 +1,18 @@
 ---
-layout: default-layout
+layout: products
 title: Softline Wardrobe Doors
 description: Gold Coast Supplier and installer of Wardrobe doors.
-permalink: /products/wardrobe-doors/softline/
-image_path: /img/wardrobe-doors/softline/
+hero_image: "/img/wardrobe-doors/softline/softline_0043_large.jpg"
 category: wardrobe-doors
-product: softline
-value-prop: Whisper quiet roller operation. Available in clear or tinted anti-shatter safety backed mirror panels.
+product: slimline
+value-prop: Indulge your imagination and create an absolutely premium wardrobe design at a surprisingly affordable price.
+do_you_need_a_buy_button: true
+buybutton: https://www.goldcoastwardrobedoors.online
+intro: Updating or replacing your wardrobe doors has a large, very visual impact on the room’s overall aesthetic. We offer a whole host of configurations and styles.
+process: Free measure and quote to a blank canvas or existing bedroom. Measuring to the exact millimeter, a wardrobe door to suit your taste and budget. Repair or replace an outdated existing wardrobe doors and wardrobe shelving to modernise your bedrooms.
+quality: We use the best and not cheap inferior imported products. Glass — We use toughened monolithic glass, manufactured in factory. Using this glass prevents de-lamination, it's also longer lasting and easier to clean. Frames — We use only quality Dias Extrusions. Dias are Australian made and have established a reputation for quality and design.
+images:
+- "/img/wardrobe-doors/softline/softline_0043_large.jpg"
+include_brochure: true
 brochure: /brochure/softline.pdf
-buybutton: https://www.goldcoastwardrobedoors.online/
 ---
-{% assign product = site.data.wardrobes[page.product] %}
-
-<section class="height-70 bg--dark imagebg page-title project-single-title page-title--animate parallax" data-overlay="3">
-    <div class="background-image-holder">
-        {% for image in site.static_files %}
-        {% if image.path contains 'img/wardrobe-doors/softline/' %}
-        <img src="{{site.baseurl}}{{image.path}}">
-        {% endif %}
-        {% endfor %}
-    </div>
-
-    {% include quote.html %}
-    <!--end container-->
-</section>
-
-{% include content.html %}
-
-
-<section class="project-single-stacked">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-                {% for image in site.static_files %}
-                {% if image.path contains 'img/wardrobe-doors/softline/' %}
-                <img src="{{site.baseurl}}{{image.path}}">
-                {% endif %}
-                {% endfor %}
-            </div>
-        </div>
-        <!--end of row-->
-    </div>
-    <!--end of container-->
-</section>
-{% include brochure.html%}

@@ -72,13 +72,18 @@ html {
 }
 
 body {
-  font-size: 1.4em;
+  font-size: 1.0em;
   line-height: 1.85714286em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
   color: #666666;
   font-weight: 400;
+}
+
+p {
+  font-size: 18px;
+  line-height: 28px;
 }
 
 h1 {
@@ -127,25 +132,29 @@ h3,
 
 h4,
 .h4 {
-  font-size: 28px;
+  font-size: 26px;
   text-transform: uppercase;
   letter-spacing: 0.15em;
+  line-height: 32px;
+
 }
 
 h5,
 .h5 {
   font-size: 24px;
+  margin-bottom: 1em !important;
 }
 
 h6,
 .h6 {
-  font-size: 0.85714286em;
-  line-height: 2.16666667em;
+  font-size: 2em;
+  line-height: 1.5em;
 }
 
 .lead {
-  font-size: 1.35714286em;
+  font-size: 1.55em;
   line-height: 1.68421053em;
+  margin-bottom: 0.5em;
 }
 
 @media all and (max-width: 767px) {
@@ -1021,9 +1030,10 @@ div[data-overlay] ul {
   padding-left: 2.78571429em;
   border: 1px solid #252525;
   border-width: 1px;
-  font-size: 20px;
+  font-size: 1em;
   font-weight: 300;
   line-height: 1.85714286em;
+  text-transform: uppercase;
 }
 
 .btn .btn__text,
@@ -1277,6 +1287,7 @@ div[data-overlay] ul {
 
 .icon--lg {
   font-size: 5.57142857em;
+  margin-top: 40px;
 }
 
 /**! 08. Lists **/
@@ -4990,7 +5001,7 @@ h6,
 
 h6:not(:last-child),
 .h6:not(:last-child) {
-  margin-bottom: 2.16666666666667em;
+  margin-bottom: 0em;
 }
 
 h6.type--uppercase,

@@ -21,7 +21,7 @@
             {{page.value-prop}}
           </p>
           {% if page.do_you_need_a_buy_button == true %}
-          <a class="btn btn--lg btn--primary" href="{{page.buybutton}}" target="_blank">
+          <a class="btn btn--primary type--uppercase" href="{{page.buybutton}}" target="_blank">
             <span class="btn__text">
               Buy Online
             </span>
@@ -33,23 +33,28 @@
     </div>
     <!--end container-->
   </section>
+  {% include breadcrumb.html %}
   {% include features-quality.html %}
+
+  {% if page.category == "glass-fencing" %}
+  {% include features-stainless.html %}
+  {% endif %}
+
+  {% if page.product == "shoji" %}
+  {% include shoji-tabs.html %}
+  {% endif %}
+
+
   {% include content.html %}
+  {% include gallery-masonary.html %}
 
-  <section class="project-single-stacked">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 col-sm-offset-2">
-          {% for item in page.images %}
-          <img src="{{site.baseurl}}{{item}}">
-          {% endfor %}
-        </div>
-      </div>
-      <!--end of row-->
 
-    </div>
-    <!--end of container-->
-  </section>
+
+  {% if page.include_brochure == true %}
+  {% include brochure.html %}
+  {% endif %}
+
+
 
   {% include cta.html %}
   {% include contact-cta.html %}

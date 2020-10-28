@@ -1,54 +1,18 @@
 ---
-layout: fencing-layout
+layout: products
 title: Glass Balustrading
 description: Gold Coast Supplier and installer of Glass Balustrading.
-image_path: /img/glass-fencing-and-balustrade/glass-balustrading/
+hero_image: "/img/glass-fencing-and-balustrade/glass-balustrading/glass-balcony/05f3b30f-c19e-424b-a0b0-7012ee01decb.jpg"
 category: glass-fencing
 product: glass-balustrading
-value-prop:  Glass balustrade for an indoor or outdoor balcony. A glass balustrade can be used for a variety of residential and commercial applications.
+value-prop: Glass balustrade for an indoor or outdoor balcony. A glass balustrade can be used for a variety of residential and commercial applications.
+do_you_need_a_buy_button: false
+buybutton:
+intro: Glass Pool Fencing & Balustrade Gold Coast, Brisbane and Byron Bay.
+process: Free measure and quote to a blank canvas or existing pool. We start be measuring to the exact millimeter and we can suit your taste and your budget.
+quality: We use the best quality glass pool fencing and components at the most competitive prices.
+images:
+- "/img/glass-fencing-and-balustrade/glass-balustrading/glass-balcony/1793122a-f151-4f31-97a1-efe01bcbb2c7.jpg"
+include_brochure: false
+brochure:
 ---
-{% assign product = site.data.glass-fencing[page.product] %}
-
-<section class="height-70 bg--dark imagebg page-title project-single-title page-title--animate parallax" data-overlay="3">
-    <div class="background-image-holder">
-      {% for image in site.static_files %}
-      {% if image.path contains 'img/glass-fencing-and-balustrade/glass-balustrading/' %}
-          <img src="{{site.baseurl}}{{image.path}}">
-      {% endif %}
-      {% endfor %}
-    </div>
-
-    <div class="container pos-vertical-center">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-              <h1>{{ page.title }}</h1>
-                  <div class="col-sm-8 col-sm-offset-2 text-center">
-                  <p class="lead">
-                    {{page.value-prop}}
-                  </div>
-                  </p>
-            </div>
-        </div>
-        <!--end row-->
-    </div>
-    <!--end container-->
-</section>
-{% include features-quality.html %}
-{% include content.html %}
-
-
-<section class="project-single-stacked">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-              {% for image in site.static_files %}
-              {% if image.path contains 'img/glass-fencing-and-balustrade/glass-balustrading/' %}
-                  <img src="{{site.baseurl}}{{image.path}}">
-              {% endif %}
-              {% endfor %}
-            </div>
-        </div>
-        <!--end of row-->
-    </div>
-    <!--end of container-->
-</section>

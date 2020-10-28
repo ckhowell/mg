@@ -1,55 +1,18 @@
 ---
-layout: fencing-layout
+layout: products
 title: Semi-Frameless Glass Fencing
 description: Gold Coast Supplier and installer of Glass Pool Fencing & Aluminium Fencing.
-image_path: /img/glass-fencing-and-balustrade/glass-semi-frameless/
+hero_image: "/img/glass-fencing-and-balustrade/glass-semi-frameless/hero/1250_alum_1_1100_800_90_s_c1.jpg"
 category: glass-fencing
 product: Semi-Frameless Glass Pool Fencing
-value-prop:  Semi-frameless glass pool fencing is the most cost effective type of glass pool fencing. And it's quite stunning.
+value-prop: Semi-frameless glass pool fencing is the most cost effective type of glass pool fencing. And it's quite stunning.
+do_you_need_a_buy_button: false
+buybutton:
+intro: Glass Pool Fencing & Balustrade Gold Coast, Brisbane and Byron Bay.
+process: Free measure and quote to a blank canvas or existing pool. We start be measuring to the exact millimeter and we can suit your taste and your budget. Repair or replace an outdated existing pool fencing.
+quality: We use the best quality glass pool fencing and components at the most competitive prices. Semi-frameless glass pool fencing is the most cost effective type of glass pool fencing.
+images:
+- "/img/glass-fencing-and-balustrade/glass-semi-frameless/semi-frameless-glass-pool-fence-4.jpg"
+include_brochure: false
+brochure:
 ---
-{% assign product = site.data.glass-fencing[page.product] %}
-
-<section class="height-70 bg--dark imagebg page-title project-single-title page-title--animate parallax" data-overlay="3">
-    <div class="background-image-holder">
-      {% for image in site.static_files %}
-      {% if image.path contains '/img/glass-fencing-and-balustrade/glass-semi-frameless/hero' %}
-          <img src="{{site.baseurl}}{{image.path}}">
-      {% endif %}
-      {% endfor %}
-    </div>
-
-    <div class="container pos-vertical-center">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-              <h1>{{ page.title }}</h1>
-                  <div class="col-sm-8 col-sm-offset-2 text-center">
-                  <p class="lead">
-                    {{page.value-prop}}
-                  </div>
-                  </p>
-            </div>
-        </div>
-        <!--end row-->
-    </div>
-    <!--end container-->
-</section>
-{% include features-quality.html %}
-{% include features-stainless.html %}
-{% include content-semi-fencing.html %}
-
-
-<section class="project-single-stacked">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-              {% for image in site.static_files %}
-              {% if image.path contains 'img/glass-fencing-and-balustrade/glass-semi-frameless/' %}
-                  <img src="{{site.baseurl}}{{image.path}}">
-              {% endif %}
-              {% endfor %}
-            </div>
-        </div>
-        <!--end of row-->
-    </div>
-    <!--end of container-->
-</section>

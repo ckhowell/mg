@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
-     <a id="start"></a>
-    {% include gtm.html %}
-    {% include nav.html %}
+<body>
+  <a id="start"></a>
+  {% include gtm.html %}
+  {% include nav.html %}
 
-    {{ content }}
-    {% include insta.html %}
-    {% include footer.html %}
-    {% include scripts.html %}
-    <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
-      <i class="stack-interface stack-up-open-big"></i>
-    </a>
-  </body>
+  {{ content }}
+
+  {% include insta.html %}
+  {% include footer.html %}
+  {% include scripts.html %}
+  <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+    <i class="stack-interface stack-up-open-big"></i>
+  </a>
+</body>
 
 </html>

@@ -1,14 +1,12 @@
-
-
 <section class="project-single-stacked">
     <div class="container">
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2">
-              {% for image in site.static_files %}
-              {% if image.path contains 'img/shelving/' %}
-                  <img src="{{site.baseurl}}{{image.path}}">
-              {% endif %}
-              {% endfor %}
+
+                {% for item in page.images %}
+                <img src="{{site.baseurl}}{{item}}">
+                {% endfor %}
+
             </div>
         </div>
         <!--end of row-->
