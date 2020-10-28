@@ -29,6 +29,8 @@ fields:
     options:
     - showerscreens
     - mirrors
+    - glass-fencing
+    - wardrobe-doors
     source:
       type: simple
       section: 
