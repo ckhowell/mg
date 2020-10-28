@@ -125,9 +125,13 @@ fields:
     field: include_brochure
     value: true
 pages:
+- _mirrors/beveled.html
+- _mirrors/framed.html
+- _mirrors/frameless.html
 - _mirrors/micro-edge.html
 - _mirrors/oval.html
 - _showerscreens/framed.md
 - _showerscreens/frameless.html
 - _showerscreens/panel.html
 - _showerscreens/semi-frameless.html
+- _wardrobe-doors/woodgrain.html
