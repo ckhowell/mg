@@ -108,5 +108,9 @@ fields:
     field: include_brochure
     value: true
 pages:
+- _mirrors/micro-edge.html
+- _mirrors/oval.html
+- _showerscreens/framed.md
+- _showerscreens/frameless.html
 - _showerscreens/panel.html
-- _showerscreens/semi-frameless.md
+- _showerscreens/semi-frameless.html
