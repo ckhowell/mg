@@ -36,3 +36,8 @@ Add your custom styles below
 /* .owl-theme .owl-controls {
   margin-top: 60px !important;
 } */
+
+p+a:not(.btn) {
+    font-size: 0.85714286em;
+    line-height: 4em;
+}
