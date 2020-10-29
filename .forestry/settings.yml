@@ -9,21 +9,29 @@ sections:
   label: Showerscreens
   create: all
   match: "**/*"
+  templates:
+  - product-page
 - type: directory
   path: _mirrors
   label: Mirrors
   create: all
   match: "**/*"
+  templates:
+  - product-page
 - type: directory
   path: _wardrobe-doors
   label: Wardrobe doors
   create: all
   match: "**/*"
+  templates:
+  - product-page
 - type: directory
   path: _glass-fencing
   label: Glass fencing
   create: all
   match: "**/*"
+  templates:
+  - product-page
 - type: directory
   path: _splashbacks
   label: Splashbacks
