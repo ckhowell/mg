@@ -2,6 +2,131 @@
 Add your custom styles below
 ****************************/
 
+.anchor::before {
+    display: block;
+    content: " ";
+    margin-top: -300px;
+    height: 350px;
+}
+
+a h4 li {
+    color: pink;
+}
+
+table th {
+    background: #fff;
+}
+
+p a,
+span a,
+label a {
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.tabs {
+    display: inline-block;
+    border: 0px solid #ECECEC;
+    border-radius: 6px;
+    margin-bottom: 3em;
+}
+
+.tabs-container.tabs--vertical .tabs li:not(:last-child) {
+    border-right: none;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+
+.tabs-container.tabs--vertical .tabs {
+    width: 90%;
+    float: left;
+}
+
+
+.mob-logo {
+    max-height: 200px;
+    max-width: 180px;
+    margin-bottom: 0px;
+}
+
+.hamburger-toggle i {
+    color: #fff;
+    margin-top: 8px;
+}
+
+hr {
+    border-color: #E3E3E3;
+}
+
+.bg--secondary {
+    background: #f2f2f2;
+}
+
+blockquote {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+    border-left: 0;
+}
+
+a:hover>svg {
+    fill: #0095C8
+}
+
+.container-fluid {
+    max-width: 1780px;
+    padding: 0 40px
+}
+
+.container {
+    max-width: 1680px;
+    padding: 0 80px
+}
+
+.bar .logo {
+    max-height: 80px;
+    max-width: none;
+    margin: 0px 20px 0px 0px;
+    padding-bottom: 15px;
+}
+
+
+.bar .bar--sm {
+    padding: 0px;
+}
+
+.bg--primary {
+    background: #0095C8;
+}
+
+.bar-1 .menu-horizontal>li>.dropdown__trigger,
+.bar-1 .menu-horizontal>li>a {
+    font-size: 1.2em;
+    line-height: 2.166666666666667em;
+    text-transform: unset;
+    font-weight: 600;
+}
+
+.menu-horizontal>li:not(:hover)>a,
+.menu-horizontal>li:not(:hover)>span,
+.menu-horizontal>li:not(:hover)>.modal-instance>.modal-trigger {
+    opacity: 1;
+}
+
+a:hover {
+    color: #0095C8 !important;
+    text-decoration: none;
+
+}
+
+.menu-horizontal>li>a,
+.menu-horizontal>li>.modal-instance>a {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #252525;
+}
+
 .btn--primary {
     color: white;
 }
@@ -29,15 +154,79 @@ Add your custom styles below
     font-size: 1.5em !important;
 }
 
-.h1 {
-    font-size: 70px;
+.affix {
+    top: 200px;
+    position: fixed;
+    /* Set the top position of pinned element */
 }
 
-/* .owl-theme .owl-controls {
-  margin-top: 60px !important;
+
+
+/* .tabs li:not(.active) {
+    opacity: 1;
 } */
 
-p+a:not(.btn) {
-    font-size: 0.85714286em;
-    line-height: 4em;
+/* .tabs li:hover {
+    opacity: 1;
+    cursor: pointer;
+    color: #0095C8 !important;
+    background-color: #0095C8;
+} */
+
+/* 
+.tabs.active {
+    color: #252525 !important;
+    background-color: #f2f2f2;
+} */
+
+/* .tabs li.active {
+    background-color: #f2f2f2;
+} */
+
+ul.navbar-nav>li.active {
+    background-color: #f2f2f2;
+
+}
+
+ul.navbar-nav>li>a {
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: currentColor;
+}
+
+
+
+@media (max-width: 1112px) {
+    .bar .logo {
+        max-height: 40px;
+        /* max-width: 180px; */
+        margin-bottom: 0px;
+    }
+
+    .bar-1 .menu-horizontal>li>.dropdown__trigger,
+    .bar-1 .menu-horizontal>li>a {
+        font-size: 0.9em;
+        line-height: 1;
+        text-transform: unset;
+        font-weight: 600;
+    }
+
+    .bar-2 .menu-horizontal>li:not(:first-child),
+    .bar-1 .menu-horizontal>li:not(:first-child) {
+        margin-left: 0em;
+    }
+}
+
+@media (max-width: 414px) {
+    .container-fluid {
+        padding: 0;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
 }

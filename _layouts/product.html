@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body data-spy="scroll" data-target="#scrollspy" data-offset="350">
+  <a id="start"></a>
+  {% include gtm.html %}
+  {% include nav.html %}
+  <div class="main-container">
+    <div class="container-fluid">
+      <section class="height-60 bg--dark imagebg">
+        <div class="background-image-holder">
+          <img src="{{page.hero_image}}">
+        </div>
+        <!--end container-->
+      </section>
+
+      {{ content }}
+
+
+      {% include footer.html %}
+      <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+        <i class="stack-interface stack-up-open-big"></i>
+      </a>
+    </div>
+  </div>
+  {% include scripts.html %}
+
+</body>
+
+</html>

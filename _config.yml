@@ -11,25 +11,25 @@ include: ['_pages']
 collections:
   accessories:
       output: true
-      permalink: /products/:categories/:path/
+      permalink: /:categories/:path/
   aluminium-fencing:
       output: true
-      permalink: /products/:categories/:path/
+      permalink: /:categories/:path/
   glass-fencing:
       output: true
-      permalink: /products/:categories/:path/
+      permalink: /:categories/:path/
   wardrobe-doors:
       output: true
-      permalink: /products/:categories/:path/
+      permalink: /:categories/:path/
   mirrors:
       output: true
-      permalink: /products/:categories/:path/
+      permalink: /:categories/:path/
   showerscreens:
       output: true
-      permalink: /products/:categories/:path/
+      permalink: /:categories/:path/
   splashbacks:
       output: true
-      permalink: /products/:categories/:path/
+      permalink: /:categories/:path/
 
 # Build settings
 markdown: kramdown

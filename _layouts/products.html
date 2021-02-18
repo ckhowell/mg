@@ -3,66 +3,49 @@
 
 {% include head.html %}
 
-<body>
+<body class="container-fluid" data-spy="scroll" data-target="#myScrollspy">
   <a id="start"></a>
   {% include gtm.html %}
   {% include nav.html %}
-
-  <section class="height-70 bg--dark imagebg page-title project-single-title page-title--animate parallax" data-overlay="3">
-    <div class="background-image-holder">
-      <img src="{{page.hero_image}}">
-    </div>
-
-    <div class="container pos-vertical-center">
-      <div class="row">
-        <div class="col-sm-12 text-center">
-          <h1>{{ page.title }}</h1>
-          <p class="lead">
-            {{page.value-prop}}
-          </p>
-          {% if page.do_you_need_a_buy_button == true %}
-          <a class="btn btn--primary type--uppercase" href="{{page.buybutton}}" target="_blank">
-            <span class="btn__text">
-              Buy Online
-            </span>
-          </a>
-          {% endif %}
+  <div class="main-container">
+    <div class="container-fluid">
+      <section class="height-60 bg--dark imagebg">
+        <div class="background-image-holder">
+          <img src="{{page.hero_image}}">
         </div>
-      </div>
-      <!--end row-->
+        <!--end container-->
+      </section>
+
+      {{ content }}
+
+      {% include features-quality.html %}
+
+      {% if page.category == "glass-fencing" %}
+      {% include features-stainless.html %}
+      {% endif %}
+
+      {% if page.product == "shoji" %}
+      {% include shoji-tabs.html %}
+      {% endif %}
+
+      {% include gallery-masonary.html %}
+
+      {% include content.html %}
+
+      {% if page.include_brochure == true %}
+      {% include brochure.html %}
+      {% endif %}
+
+
+
+      {% include cta.html %}
+      {% include contact-cta.html %}
+      {% include footer.html %}
+      <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+        <i class="stack-interface stack-up-open-big"></i>
+      </a>
     </div>
-    <!--end container-->
-  </section>
-  {% include breadcrumb.html %}
-  {% include features-quality.html %}
-
-  {% if page.category == "glass-fencing" %}
-  {% include features-stainless.html %}
-  {% endif %}
-
-  {% if page.product == "shoji" %}
-  {% include shoji-tabs.html %}
-  {% endif %}
-
-
-  {% include content.html %}
-  {% include gallery-masonary.html %}
-
-
-
-  {% if page.include_brochure == true %}
-  {% include brochure.html %}
-  {% endif %}
-
-
-
-  {% include cta.html %}
-  {% include contact-cta.html %}
-  {% include insta.html %}
-  {% include footer.html %}
-  <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
-    <i class="stack-interface stack-up-open-big"></i>
-  </a>
+  </div>
   {% include scripts.html %}
 
 </body>
