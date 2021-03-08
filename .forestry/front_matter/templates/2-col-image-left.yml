@@ -34,3 +34,5 @@ fields:
     max: 
     labelField: 
   label: 2-col-image-left
+pages:
+- "./test-file.md"
