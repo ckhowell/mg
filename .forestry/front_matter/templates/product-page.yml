@@ -68,6 +68,15 @@ fields:
       file: 
       path: 
   label: product
+- name: page_sections
+  type: blocks
+  label: Page Sections
+  template_types:
+  - 2-col-image-left
+  - textarea
+  config:
+    min: 
+    max: 
 - name: do_you_need_a_buy_button
   type: boolean
   label: Do you need a buy button
@@ -103,15 +112,6 @@ fields:
   showOnly:
     field: include_brochure
     value: true
-- name: page_sections
-  type: blocks
-  label: Page Sections
-  template_types:
-  - 2-col-image-left
-  - textarea
-  config:
-    min: 
-    max: 
 pages:
 - _glass-fencing/frameless.html
 - _glass-fencing/glass-balustrading.html

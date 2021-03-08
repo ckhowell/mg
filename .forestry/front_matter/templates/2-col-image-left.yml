@@ -2,7 +2,7 @@
 label: Page Sections
 hide_body: true
 fields:
-- name: page-sections
+- name: 2-col-image-left
   type: field_group_list
   fields:
   - name: feature-tag
@@ -33,11 +33,6 @@ fields:
     min: 
     max: 
     labelField: 
-  label: page-sections
-- name: textarea
-  type: include
-  config: {}
-  template: textarea
-  label: Textarea
+  label: 2-col-image-left
 pages:
 - "./test-file.md"
