@@ -1,4 +1,18 @@
 ---
 label: 2-col-image-left
 hide_body: true
-fields: []
+fields:
+- name: feature-tag
+  type: text
+  config:
+    required: false
+  label: Small Tag
+- name: feature-copy
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
