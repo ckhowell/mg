@@ -21,6 +21,7 @@ fields:
   label: 2 Column Image Left Section
   template_types:
   - 2-col-image-left
+  - textarea
   config:
     min: 
     max: 
