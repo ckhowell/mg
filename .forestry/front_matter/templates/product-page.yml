@@ -21,6 +21,11 @@ fields:
     maxSize: 64
   label: Hero Image
   description: The main image feature image
+- name: page_section
+  type: include
+  config: {}
+  template: 2-col-image-left
+  label: Page Section
 - name: category
   type: select
   default: ''
@@ -68,11 +73,6 @@ fields:
       file: 
       path: 
   label: product
-- name: 2-col-left
-  type: include
-  config: {}
-  template: 2-col-image-left
-  label: 2-col-left
 - name: do_you_need_a_buy_button
   type: boolean
   label: Do you need a buy button
@@ -108,6 +108,11 @@ fields:
   showOnly:
     field: include_brochure
     value: true
+- name: textarea
+  type: include
+  config: {}
+  template: textarea
+  label: Textarea
 pages:
 - _glass-fencing/frameless.html
 - _glass-fencing/glass-balustrading.html
