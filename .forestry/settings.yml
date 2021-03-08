@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: jekyll-pages
-  label: Pages
+  label: PageTest
   create: all
   templates:
   - 2-col-image-left
