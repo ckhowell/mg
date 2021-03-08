@@ -1,4 +1,36 @@
 ---
 label: 2-col-image-left
 hide_body: true
-fields: []
+fields:
+- name: 2-col-image-left
+  type: field_group_list
+  fields:
+  - name: feature-tag
+    type: text
+    config:
+      required: false
+    label: Small Tag
+  - name: feature-heading
+    type: text
+    config:
+      required: true
+    label: Headline
+  - name: feature-copy
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  - name: feature-image
+    type: file
+    config:
+      maxSize: 5
+    label: image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: 2-col-image-left
