@@ -1,8 +1,8 @@
 ---
-label: 2-col-image-left
+label: Page Section
 hide_body: true
 fields:
-- name: 2-col-image-left
+- name: page-sections
   type: field_group_list
   fields:
   - name: feature-tag
@@ -33,6 +33,6 @@ fields:
     min: 
     max: 
     labelField: 
-  label: 2-col-image-left
+  label: page-sections
 pages:
 - "./test-file.md"
