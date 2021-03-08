@@ -34,5 +34,10 @@ fields:
     max: 
     labelField: 
   label: page-sections
+- name: textarea
+  type: include
+  config: {}
+  template: textarea
+  label: Textarea
 pages:
 - "./test-file.md"
