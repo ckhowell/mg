@@ -21,11 +21,6 @@ fields:
     maxSize: 64
   label: Hero Image
   description: The main image feature image
-- name: page_section
-  type: include
-  config: {}
-  template: 2-col-image-left
-  label: Page Section
 - name: category
   type: select
   default: ''
@@ -108,11 +103,15 @@ fields:
   showOnly:
     field: include_brochure
     value: true
-- name: textarea
-  type: include
-  config: {}
-  template: textarea
-  label: Textarea
+- name: page_sections
+  type: blocks
+  label: Page Sections
+  template_types:
+  - 2-col-image-left
+  - textarea
+  config:
+    min: 
+    max: 
 pages:
 - _glass-fencing/frameless.html
 - _glass-fencing/glass-balustrading.html

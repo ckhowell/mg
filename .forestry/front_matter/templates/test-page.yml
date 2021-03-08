@@ -16,9 +16,9 @@ fields:
     schema:
       format: markdown
   label: Description
-- name: 2-col-img-left-section
+- name: Page_Section
   type: blocks
-  label: 2 Column Image Left Section
+  label: Page Section
   template_types:
   - 2-col-image-left
   - textarea
