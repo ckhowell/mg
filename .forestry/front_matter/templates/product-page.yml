@@ -68,6 +68,11 @@ fields:
       file: 
       path: 
   label: product
+- name: 2-col-left
+  type: include
+  config: {}
+  template: 2-col-image-left
+  label: 2-col-left
 - name: do_you_need_a_buy_button
   type: boolean
   label: Do you need a buy button
