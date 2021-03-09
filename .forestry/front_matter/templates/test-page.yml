@@ -21,7 +21,7 @@ fields:
   label: Page Section
   template_types:
   - 2-col-image-left
-  - textarea
+  - 2-col-image-left
   config:
     min: 
     max: 
