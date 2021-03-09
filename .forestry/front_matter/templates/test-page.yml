@@ -25,3 +25,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- 2colleft.md
